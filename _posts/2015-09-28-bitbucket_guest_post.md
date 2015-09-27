@@ -45,7 +45,7 @@ CloudCannon makes it easier for non-developers:
 
 ### How do I get started?
 
-Getting a site live using the CloudCannon Bitbucket add-on is easy. First navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/addon-directory/) and install CloudCannon.
+Getting a site live using the CloudCannon Bitbucket add-on is easy. First, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/addon-directory/) and install CloudCannon.
 
 ![](/uploads/versions/list---x----1000-625x---.png)
 
