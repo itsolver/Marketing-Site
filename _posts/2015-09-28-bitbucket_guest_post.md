@@ -59,9 +59,7 @@ Next we need to create a repository with a static or Jekyll site. If you don't h
 
 Let's create a site. Click on the plus and enter a site name. If you have multiple branches, select a branch.
 
-![](/uploads/versions/screen-shot-2015-09-28-at-11.27.03-am---x----900-563x---.png)
-
-CloudCannon syncs your files from Bitbucket.
+![](/uploads/versions/screen-shot-2015-09-28-at-11.27.03-am-b34c9a32dbde11bedbeccc76d440760a---x----900-563x---.png)CloudCannon syncs your files from Bitbucket.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.12.43-am---x----900-563x---.png)The site is live. Click the generated domain at the top left to view it.
 
