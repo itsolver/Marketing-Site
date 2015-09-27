@@ -18,9 +18,9 @@ The CloudCannon Bitbucket add-on gives developers the advantages of Bitbucket **
 
 ### What is CloudCannon?
 
-CloudCannon helps agencies and enterprises build websites for non-developers faster. 
+CloudCannon helps agencies and enterprises build websites for non-developers faster.
 
-Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. 
+Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live.
 
 Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
 
