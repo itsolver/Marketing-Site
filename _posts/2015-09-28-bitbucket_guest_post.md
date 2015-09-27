@@ -49,7 +49,7 @@ Getting a site live using the CloudCannon Bitbucket add-on is easy. First, navig
 
 ![](/uploads/versions/list---x----1000-625x---.png)
 
-Next we need to create a repository with a static or Jekyll site. If you don't have one handy [here's a Jekyll site we prepared earlier](http://docs.cloudcannon.com/creative.zip).
+Next, we need to create a repository with a static or Jekyll site. If you don't have one handy [here's a Jekyll site we prepared earlier](http://docs.cloudcannon.com/creative.zip).
 
 ![](/uploads/versions/bb-source---x----900-563x---.png) Click the CloudCannon button on the left sidebar.
 
@@ -66,7 +66,7 @@ Let's create a site. Click on the plus and enter a site name. If you have multip
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.41.24-am---x----900-563x---.png)Now it's time to make it easy to update. Go back to CloudCannon and click on `index.html`, then go to the code editor at the top right.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.13.16-am-d5d7c348bd205741b0a67b80d1bcfcc9---x----900-563x---.png)
-Here you add `class="editable"` to elements you want to be updated. Save that and go to the visual editor view.
+Add `class="editable"` to elements you want to be updated. Save that and go to the visual editor view.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.13.44-am-397727f94432272d126c50df87d80f9c---x----900-563x---.png)Try updating the content. When you save, CloudCannon commits the changes back to your Bitbucket repository and pushes the changes to your live site.
 
