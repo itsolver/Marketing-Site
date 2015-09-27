@@ -2,7 +2,7 @@
 layout: post
 title: Bitbucket Guest Post
 header: Bitbucket Guest Post
-category: Guest Post
+category: guest
 author: mike
 ---
 
