@@ -10,7 +10,7 @@ author: mike
 
 *This guest post is written by Mike Neumegen, co-founder of CloudCannon.*
 
-With Bitbucket, developers have great workflows for collaborating on software projects. You can see exactly what has changed when someone makes an update, multiple people can make updates and the same time and new features can be separated into branches.
+With Bitbucket, developers have great workflows for collaborating on software projects. You can see exactly what has changed when someone makes an update, multiple people can make updates at the same time and new features can be separated into branches.
 
 So why can't we have these workflows when building sites for non-technical users? Database backed content management systems offer basic revision control but they lack the other benefits you get with Bitbucket.
 
