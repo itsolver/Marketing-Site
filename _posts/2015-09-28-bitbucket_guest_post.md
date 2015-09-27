@@ -36,7 +36,7 @@ CloudCannon also makes it easy for non-developers:
 
 * Editing is inline so there's no need to preview content.
 * Developers control what content and metadata can be updated so there's not an overwhelming array of options.
-* Through git branching CloudCannon support multiple environments so changes can be testing on a live site before it's sent to production.
+* Changes can be testing on a live staging site before production with Git branching and multiple environments in CloudCannon.
 
 
 ### How do I get started?
@@ -61,7 +61,7 @@ Create a site. CloudCannon syncs your files from Bitbucket.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.13.44-am---x----900-563x---.png)Try updating the content. When you save, CloudCannon commits the changes back to your Bitbucket repository and pushes the changes to your live site.
 
-Editing meta data is easy using front matter. Click the settings button to make changes to front matter.
+Editing metadata is easy using front matter. Click the settings button to make changes to front matter.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.14.05-am---x----900-563x---.png)Blog posts, collection items and data files also have simple interfaces for updating content.
 
