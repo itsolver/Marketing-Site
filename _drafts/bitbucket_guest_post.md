@@ -26,12 +26,12 @@ Non-technical users log into CloudCannon and update content inline. All changes 
 
 ### Why use CloudCannon?
 
-Companies like [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/),  [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) can now rapidly deploy sites for marketing teams and clients.
+Companies like [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) can now rapidly deploy sites for marketing teams and clients.
 
 CloudCannon sites are just static sites which has numerous advantages over database backed CMSs:
 
 * They're simpler to build.
-*  All the source files can live in Bitbucket.
+* All the source files can live in Bitbucket.
 * They load faster as there's no backend processing.
 * There's less security risk.
 
@@ -51,6 +51,6 @@ Getting a site live using the CloudCannon Bitbucket add-on is easy. First head o
 
 Next we need to create a repository with a static or Jekyll site. If you don't have one handy [here's a Jekyll site we prepared earlier](http://docs.cloudcannon.com/creative.zip).
 
-![](/uploads/versions/bb-source---x----900-563x---.)
+![](/uploads/versions/bb-source---x----900-563x---.)Click the CloudCannon button is the left sidebar which opens up CloudCannon.
 
- 
+![](/uploads/versions/screen-shot-2015-09-28-at-1.11.21-am---x----900-563x---.png)
