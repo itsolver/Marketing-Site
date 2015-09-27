@@ -14,7 +14,7 @@ Bitbucket provides developers with great workflows for collaborating on software
 
 So why can't we have these workflows when building websites for non-developers? Database backed content management systems offer basic revision control but they lack the other benefits you get with Bitbucket.
 
-With the CloudCannon Bitbucket add-on, developers get all the advantages of using Bitbucket to build websites **and** non-developers can update content.
+The CloudCannon Bitbucket add-on gives developers the advantages of Bitbucket **and** non-developers the tools to update content.
 
 ### What is CloudCannon?
 
@@ -22,7 +22,7 @@ CloudCannon helps agencies and enterprises build websites for non-developers fas
 
 ### Why use CloudCannon?
 
-Companies and freelancers like [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) now rapidly deploy websites for marketing teams and clients.
+[Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
 CloudCannon websites are just static websites which has numerous advantages over database backed CMSs:
 
