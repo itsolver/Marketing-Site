@@ -24,24 +24,21 @@ CloudCannon helps agencies and enterprises build websites for non-developers fas
 
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
-CloudCannon websites are just static websites which has numerous advantages over database backed CMSs:
+CloudCannon sites are made of static files. Compared to a database backed CMS, there are a number of advantages:
+- Less complexity
+- All source files can be stored in Bitbucket
+- Sites are served faster sites as there’s no backend processing
+- Minimal security risk
 
-* They're simpler to build.
-* All the source files can live in Bitbucket.
-* They load faster as there's no backend processing.
-* There's less security risk.
-
-
-CloudCannon also makes it easy for non-developers:
-
-* Editing is inline so there's no need to preview content.
-* Developers control what content and metadata can be updated so there's not an overwhelming array of options.
-* Changes can be testing on a live staging site before production with Git branching and multiple environments in CloudCannon.
-
+CloudCannon makes it easier for non-developers:
+- No need to preview content as editing is inline
+- No design breaking changes as developers specify which content non-developers can modify
+- Changes can be tested on a live staging site before production with Git branching and multiple environments
+ 
 
 ### How do I get started?
 
-Getting a site live using the CloudCannon Bitbucket add-on is easy. First head over to the [Bitbucket Add-On directory](https://bitbucket.org/account/addon-directory/) and install CloudCannon.
+Getting a site live using the CloudCannon Bitbucket add-on is easy. First navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/addon-directory/) and install CloudCannon.
 
 ![](/uploads/versions/list---x----1000-625x---.png)
 
