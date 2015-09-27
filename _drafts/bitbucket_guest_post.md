@@ -51,8 +51,7 @@ Getting a site live using the CloudCannon Bitbucket add-on is easy. First head o
 
 Next we need to create a repository with a static or Jekyll site. If you don't have one handy [here's a Jekyll site we prepared earlier](http://docs.cloudcannon.com/creative.zip).
 
-![](/uploads/versions/bb-source---x----900-563x---.png)
-Click the CloudCannon button on the left sidebar.
+![](/uploads/versions/bb-source---x----900-563x---.png) Click the CloudCannon button on the left sidebar.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.11.21-am---x----900-563x---.png)
 
@@ -66,8 +65,8 @@ Create a site. CloudCannon syncs your files from Bitbucket.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.13.44-am---x----900-563x---.png)Try updating the content. When you save, CloudCannon commits the changes back to your Bitbucket repository and pushes the changes to your live site.
 
-Editing meta data is easy using front matter. Click the settings button to make changes to the front matter.
+Editing meta data is easy using front matter. Click the settings button to make changes to front matter.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.14.05-am---x----900-563x---.png)Blog posts, collection items and data files also have simple interfaces for updating content.
 
-![](/uploads/versions/screen-shot-2015-09-28-at-1.54.07-am---x----900-563x---.png)Now you have a live site you can share with your team or clients! Hopefully that was enough to get you started. If you're looking for a more in-depth tutorial, checkout our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
+![](/uploads/versions/screen-shot-2015-09-28-at-1.54.07-am---x----900-563x---.png)Now you have a live site you can share with your team or clients! That should be enough to get you started. If you're looking for a more in-depth tutorial, checkout our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
