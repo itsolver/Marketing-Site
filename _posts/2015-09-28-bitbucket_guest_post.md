@@ -81,4 +81,4 @@ Editing metadata is easy using front matter. Click the settings button to make c
 
 We've only scratched the surface of what CloudCannon can do. Install the CloudCannon Bitbucket add-on today and see how much faster you can build websites for non-developers.
 
-For a more in-depth tutorial, checkout our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
+For a more in-depth tutorial, check out our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
