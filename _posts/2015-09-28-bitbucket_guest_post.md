@@ -22,7 +22,7 @@ CloudCannon helps agencies and enterprises build websites for non-developers fas
 
 ### Why use CloudCannon?
 
-Companies like [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) now rapidly deploy websites for marketing teams and clients.
+Companies and freelancers like [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) now rapidly deploy websites for marketing teams and clients.
 
 CloudCannon websites are just static websites which has numerous advantages over database backed CMSs:
 
