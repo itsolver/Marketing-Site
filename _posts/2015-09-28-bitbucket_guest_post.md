@@ -53,7 +53,7 @@ Next, we need to create a repository with a static or Jekyll site. If you don't 
 
 ![](/uploads/versions/bb-source---x----900-563x---.png) Click the CloudCannon button on the left sidebar.
 
-![](/uploads/versions/bb-source---x----900-563x---.png)CloudCannon opens and shows the sites already connected to this repository (there's none in this case).
+![](/uploads/versions/bb-source---x----900-563x---.png)CloudCannon opens and shows the sites already connected to this repository (we don't have any yet).
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.11.21-am-6b41e1a3aa4b16c96ade295043194685---x----900-563x---.png)
 
