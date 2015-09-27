@@ -18,7 +18,15 @@ The CloudCannon Bitbucket add-on gives developers the advantages of Bitbucket **
 
 ### What is CloudCannon?
 
-CloudCannon helps agencies and enterprises build websites for non-developers faster. Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
+CloudCannon helps agencies and enterprises build websites for non-developers faster. 
+
+Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. 
+
+Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
+
+<div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/lgi4qbkx0t?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="710" height="444" style="width: 710px; height: 444px;"></iframe></div></div>
+
+<script src="//fast.wistia.net/assets/external/E-v1.js" async=""></script>
 
 ### Why use CloudCannon?
 
@@ -38,10 +46,6 @@ CloudCannon makes it easier for non-developers:
 * No design breaking changes as developers specify which content non-developers can modify
 * Changes can be tested on a live staging site before production with Git branching and multiple environments
 
-
-<div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/lgi4qbkx0t?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="710" height="444" style="width: 710px; height: 444px;"></iframe></div></div>
-
-<script src="//fast.wistia.net/assets/external/E-v1.js" async=""></script>
 
 ### How do I get started?
 
