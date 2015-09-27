@@ -25,16 +25,21 @@ CloudCannon helps agencies and enterprises build websites for non-developers fas
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
 CloudCannon sites are made of static files. Compared to a database backed CMS, there are a number of advantages:
-- Less complexity
-- All source files can be stored in Bitbucket
-- Sites are served faster sites as there’s no backend processing
-- Minimal security risk
+
+* Less complexity
+* All source files can be stored in Bitbucket
+* Sites are served faster sites as there’s no backend processing
+* Minimal security risk
+
 
 CloudCannon makes it easier for non-developers:
-- No need to preview content as editing is inline
-- No design breaking changes as developers specify which content non-developers can modify
-- Changes can be tested on a live staging site before production with Git branching and multiple environments
- 
+
+* No need to preview content as editing is inline
+* No design breaking changes as developers specify which content non-developers can modify
+* Changes can be tested on a live staging site before production with Git branching and multiple environments
+
+<div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/lgi4qbkx0t?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 
 ### How do I get started?
 
