@@ -39,11 +39,7 @@ CloudCannon makes it easier for non-developers:
 * Changes can be tested on a live staging site before production with Git branching and multiple environments
 
 
- 
-
 <div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/lgi4qbkx0t?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="710" height="444" style="width: 710px; height: 444px;"></iframe></div></div>
-
- 
 
 <script src="//fast.wistia.net/assets/external/E-v1.js" async=""></script>
 
@@ -57,11 +53,11 @@ Next we need to create a repository with a static or Jekyll site. If you don't h
 
 ![](/uploads/versions/bb-source---x----900-563x---.png) Click the CloudCannon button on the left sidebar.
 
-![](/uploads/versions/screen-shot-2015-09-28-at-1.11.21-am---x----900-563x---.png)
+![](/uploads/versions/bb-source---x----900-563x---.png)CloudCannon opens and shows the sites already connected to this repository (there's none in this case).
 
-CloudCannon will show the sites already connected to this repository (none in this case).
+![](/uploads/versions/screen-shot-2015-09-28-at-1.11.21-am-6b41e1a3aa4b16c96ade295043194685---x----900-563x---.png)
 
-Let's create a site. If you have multiple branches, select a branch.
+Let's create a site. Click on the plus and enter a site name. If you have multiple branches, select a branch.
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-11.27.03-am---x----900-563x---.png)
 
