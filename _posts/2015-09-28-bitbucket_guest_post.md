@@ -74,4 +74,8 @@ Editing metadata is easy using front matter. Click the settings button to make c
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.14.05-am---x----900-563x---.png)Blog posts, collection items and data files also have simple interfaces for updating content.
 
-![](/uploads/versions/screen-shot-2015-09-28-at-1.54.07-am---x----900-563x---.png)Now you have a live site you can share with your team or clients! That should be enough to get you started. If you're looking for a more in-depth tutorial, checkout our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
+![](/uploads/versions/screen-shot-2015-09-28-at-1.54.07-am---x----900-563x---.png)Now you have a live site you can share with your team or clients. Best of all it's all done inside Bitbucket.
+
+We've only scratched the surface of what CloudCannon can do. Install the CloudCannon Bitbucket add-on today and see how much faster you can build websites for non-developers. 
+
+For a more in-depth tutorial, checkout our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
