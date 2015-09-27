@@ -32,7 +32,7 @@ CloudCannon websites are just static websites which has numerous advantages over
 * There's less security risk.
 
 
-CloudCannon also makes it easier for non-developers:
+CloudCannon also makes it easy for non-developers:
 
 * Editing is inline so there's no need to preview content.
 * Developers control what content and metadata can be updated so there's not an overwhelming array of options.
