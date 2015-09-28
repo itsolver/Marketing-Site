@@ -28,7 +28,7 @@ CloudCannon sites are just static files yet advanced layouts, blogging, photo ga
 
 * Less complexity
 * All source files are stored in a Bitbucket repository
-* Website load times are  faster sites as there’s no backend processing
+* Website load times are faster sites as there’s no backend processing
 * Minimal security risk
 
 
@@ -43,7 +43,15 @@ CloudCannon makes it easier for non-developers:
 
 ## Introducing the Bitbucket Connect Add-on
 
-With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. You can deploy your static/Jekyll website repository and have non-developers update content in seconds.
+Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want.
+
+Working on a overhaul of the website design? Just create a new branch so it doesn't interfere with non-developers updating content.
+
+Want to see what a website looked like six months ago? Just revert back to commit at that time.
+
+Have a complicated approval process? With pull requests and branching you can make the approval process as complex as you need.
+
+With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. Deploy your static/Jekyll website repository and have non-developers update content in seconds.
 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
@@ -72,10 +80,6 @@ Non-developer update content inline without the need to understand git or the un
 
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
- 
-
 ## A simpler way to work
 
-Having all the source files live in Bitbucket give you complete flexibility to work the way you want.
-
-Working on a overhaul of the website design? Just create a new branch so non-developers can continue to 
+ 
