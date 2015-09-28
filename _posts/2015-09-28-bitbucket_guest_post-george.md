@@ -35,7 +35,7 @@ CloudCannon is also easy for non-developers:
 * No design breaking changes as developers specify which content non-developers can change
 
 
-[Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
+[Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Agencies](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
 ## Introducing the Bitbucket Connect Add-on
 
@@ -59,8 +59,8 @@ Once you add a site, your files are cloned from your selected branch. In a few s
 
 Non-developers update content inline without the need to understand Git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
 
-* **Inline editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.**
-* **Front matter/metadata is updated using a generated settings panel. Anything from text to an advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/).**
+* Inline editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.
+* Eaily update metadata using a generated settings panel. Anything from text to an advanced image picker is configurable.
 * Blog posts are updated in a distraction free mode allowing writers to focus. New blog posts are created as a draft and can be published when ready.
 
 
@@ -70,12 +70,10 @@ Non-developers update content inline without the need to understand Git or the u
 
 ##  
 
-## Get started with CloudCannon and Bitbucket  
+## Get started with CloudCannon and Bitbucket
 
-CloudCannon's Bitbucket Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually. 
+CloudCannon's Bitbucket Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually.
 
-__GET STARTED TUTORIAL__
-__COMMENT BELOW OR CONTACT SUPPORT__
-__LINK TO INSTALL AGAIN__
+**GET STARTED TUTORIAL** **COMMENT BELOW OR CONTACT SUPPORT** **LINK TO INSTALL AGAIN**
 
 ---
