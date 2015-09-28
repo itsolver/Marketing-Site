@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bitbucket Guest Post 2
-header: Bitbucket Guest Post 2
+title: Bitbucket Guest Post George
+header: Bitbucket Guest Post George
 category: guest
 author: mike
 ---
@@ -31,7 +31,7 @@ CloudCannon sites allow advanced layouts, blogging and photo galleries purely us
 CloudCannon is also easy for non-developers:
 
 * There's no need to preview content as editing is inline
-* **Metadata of any complexity... **
+* **Metadata of any complexity...**
 * No design breaking changes as developers specify which content non-developers can change
 
 
@@ -44,7 +44,6 @@ With the CloudCannon Bitbucket Connect Add-on, you can work on websites without 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
 ![](/uploads/versions/list---x----631-302x---.png)
- 
 
 ## How it works for Developers
 
@@ -71,25 +70,12 @@ Non-developers update content inline without the need to understand Git or the u
 
 ##  
 
-The CloudCannon Bitbucket Add-on empowers everyone to contribute to a website. Developers get a simpler workflow, their developer tools 
+## Get started with CloudCannon and Bitbucket  
 
- 
+CloudCannon's Bitbucket Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually. 
 
- 
-
----
-
-Using Bitbucket as a store opens up new workflows:
-
-* Big breaking changes can be seperated new branch so it doesn't interfere with non-develope
-
-
-Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want. If you need to rs updating content. If you want to see what a website looked like six months ago you can revert back to a commit at that time. If you have a complicated approval process you can use pull requests and branching you can make the approval process as complex as you need.
-
-## ---
-
-## A simpler way to work
-
-CloudCannon streamlines the entire process of creating websites for non-developers so you can concentrate on creating stunning experiences. Developers can build faster and have more control when creating websites. Non-developers have a beautiful inline editing experience. The CloudCannon Bitbucket Connect Add-on means you can do all of this from with in Bitbucket.
+__GET STARTED TUTORIAL__
+__COMMENT BELOW OR CONTACT SUPPORT__
+__LINK TO INSTALL AGAIN__
 
 ---
