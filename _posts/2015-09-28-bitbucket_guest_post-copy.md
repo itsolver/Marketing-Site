@@ -82,4 +82,6 @@ Non-developer update content inline without the need to understand git or the un
 
 ## A simpler way to work
 
-CloudCannon streamlines the entire process of creating websites for non-developers so you can concentrate on creating stunning experiences. Developers no longer need to use heavy-weight 
+CloudCannon streamlines the entire process of creating websites for non-developers so you can concentrate on creating stunning experiences. Developers can build faster and have more control when creating websites. Non-developers have a beautiful inline editing experience. The CloudCannon Bitbucket Connect Add-on means you can do all of this from with in Bitbucket.
+
+ 
