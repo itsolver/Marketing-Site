@@ -22,7 +22,7 @@ The new CloudCannon Bitbucket add-on makes all of this possible.
 
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Agencies](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
-<style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; margin: 0 0 30px 0; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;modestbranding&amp;playlist=AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
