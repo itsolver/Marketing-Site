@@ -12,7 +12,7 @@ author: mike
 
 Bitbucket provides developers with great workflows for collaborating on software projects. So why can't we have these workflows when building websites for non-developers?
 
-What if you could just build static websites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
+What if you could build static websites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
 
 With the new CloudCannon Bitbucket add-on all this is now possible. Let's have a look at how it works.
 
@@ -55,7 +55,7 @@ Once you install the add-on, visit one of your repositories and a CloudCannon op
 
 ![](/uploads/versions/bb-source---x----900-563x---.png)
 
-Once a site is added your files are cloned from your selected branch. In a few short moments you will have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch will appear on CloudCannon. As a developer you can update the source as usual through git. Alternatively there is a built in code editor. Any changes made on CloudCannon are pushed back to Bitbucket.​
+Once you add a site, your files are cloned from your selected branch. In a few short moments you will have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch will appear on CloudCannon. As a developer you can update the source as usual through git. Alternatively there is a built in code editor. Any changes made on CloudCannon are pushed back to Bitbucket.​
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.12.43-am---x----900-563x---.png)
 
@@ -70,8 +70,12 @@ Non-developer update content inline without the need to understand git or the un
 
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" rel="0" showinfo="0"></iframe></div>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
  
 
-For a more in-depth tutorial, check out our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
+## A simpler way to work
+
+Having all the source files live in Bitbucket give you complete flexibility to work the way you want.
+
+Working on a overhaul of the website design? Just create a new branch so non-developers can continue to 
