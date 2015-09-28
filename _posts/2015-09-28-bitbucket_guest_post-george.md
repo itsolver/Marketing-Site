@@ -24,7 +24,7 @@ The new CloudCannon Bitbucket Add-on makes all of this possible.
 
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding&playlist=AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
 ## Introducing the Bitbucket Connect Add-on
 
