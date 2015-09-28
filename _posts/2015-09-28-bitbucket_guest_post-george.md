@@ -52,7 +52,7 @@ Non-developers update content inline without the need to understand Git or the u
 * Eaily update metadata using a generated settings panel. Anything from text to an advanced image picker is configurable.
 * Blog posts are updated in a distraction free mode allowing writers to focus. New blog posts are created as a draft and can be published when ready.
 
-
+<style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8"></iframe><iframe src="https://www.youtube.com/embed/Pp3YBk3Jmds" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
 ##  
