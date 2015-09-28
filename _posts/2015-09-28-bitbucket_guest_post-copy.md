@@ -12,7 +12,7 @@ author: mike
 
 Bitbucket provides developers with great workflows for collaborating on software projects. So why can't we have these workflows when building websites for non-developers?
 
-What if you could just build static sites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
+What if you could just build static sites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?.
 
 With the new CloudCannon Bitbucket add-on all of this is now possible. Let's have a look at how it works.
 
