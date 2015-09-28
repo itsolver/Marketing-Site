@@ -26,9 +26,9 @@ The new CloudCannon Bitbucket Add-on makes all of this possible.
 
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;modestbranding&amp;playlist=AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
-## Introducing the Bitbucket Connect Add-on
+## Introducing the Atlassian Connect Add-on
 
-With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. Deploy your static/Jekyll website directly from your repository and have non-developers update content in seconds.
+With the CloudCannon Atlassian Connect Add-on, you can work on websites without leaving Bitbucket. Deploy your static/Jekyll website directly from your repository and have non-developers update content in seconds.
 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
@@ -40,7 +40,7 @@ Once you install the Add-on, visit one of your repositories and a CloudCannon op
 
 ![](/uploads/versions/bb-source---x----900-563x---.png)
 
-Once you add a site, your files are cloned from your selected branch. A few seconds later you have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch appear on CloudCannon. As a developer you can update locally through Git or using the CloudCannon code editor. Changes made on CloudCannon push back to Bitbucket.​
+After adding a site, your files are cloned from your selected branch. A few seconds later you have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch appear on CloudCannon. As a developer you can update locally through Git or using the CloudCannon code editor. Changes made on CloudCannon push back to Bitbucket.​
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.12.43-am---x----900-563x---.png)
 
@@ -54,7 +54,7 @@ Non-developers update content inline without the need to understand Git or the u
 
 ## Get started with CloudCannon and Bitbucket
 
-CloudCannon's Bitbucket Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually.
+CloudCannon's Atlassian Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually.
 
 If you need help setting up your first site have a read of our [our get started tutorial](http://cloudcannon.com/bitbucket-jekyll/) or get in touch through support (support@cloudcannon.com) or posting a comment below.
 
