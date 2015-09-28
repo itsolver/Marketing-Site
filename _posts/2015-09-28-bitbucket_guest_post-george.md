@@ -38,7 +38,7 @@ To get started, navigate to the [Bitbucket add-on directory](https://bitbucket.o
 
 Once you install the add-on, visit one of your repositories and a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
 
-![](/uploads/versions/bb-source---x----900-563x---.png)
+![](/uploads/versions/bb-source---x0-0-900-563-900-563x---.png)
 
 After adding a site, your files are cloned from your selected branch. A few seconds later you have a live website. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch appear on CloudCannon. As a developer you can update locally through Git or using the CloudCannon code editor. Changes made on CloudCannon push back to Bitbucket.​
 
