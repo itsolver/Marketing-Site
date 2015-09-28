@@ -52,8 +52,6 @@ Non-developers update content inline without the need to understand Git or the u
 
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8"></iframe><iframe src="https://www.youtube.com/embed/Pp3YBk3Jmds" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
-##  
-
 ## Get started with CloudCannon and Bitbucket
 
 CloudCannon's Bitbucket Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually.
