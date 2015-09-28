@@ -20,14 +20,6 @@ The new CloudCannon Bitbucket Add-on makes all of this possible.
 
 [CloudCannon](http://cloudcannon.com) helps agencies and enterprises build websites for non-developers. **Developers** build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. **Non-developers** log into CloudCannon and update the content inline. All changes are synced between CloudCannon and Bitbucket.
 
-CloudCannon sites allow advanced layouts, blogging and photo galleries purely using static files. Static sites have many advantages over a database backed CMS:
-
-* Less complexity
-* All source files are stored in a Bitbucket repository
-* Website load times are faster sites as there’s no backend processing
-* Minimal security risk
-
-
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Agencies](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
 ## Introducing the Bitbucket Connect Add-on
