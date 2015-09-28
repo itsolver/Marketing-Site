@@ -10,15 +10,11 @@ author: mike
 
 *This guest post is written by Mike Neumegen, co-founder of CloudCannon.*
 
-CloudCannon helps agencies and enterprises build websites for non-developers faster. Bitbucket provides developers with great workflows for collaborating on software projects. You can see exactly what has changed when someone makes an update, multiple people can make updates at the same time and new features can be separated into branches.
+Bitbucket provides developers with great workflows for collaborating on software projects. So why can't we have these workflows when building websites for non-developers?
 
-So why can't we have these workflows when building websites? Sure you could 
+What if you could just build static sites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
 
-# Deploy from Bitbucket
-
-# Non-developers inline editing
-
-With the new CloudCannon Bitbucket add-on, developers can deploy websites at the click of a button **and** have non-developers update content.
+With the new CloudCannon Bitbucket add-on all of this is now possible. Let's have a look at how it works.
 
 ### What is CloudCannon?
 
@@ -27,8 +23,6 @@ CloudCannon helps agencies and enterprises build websites for non-developers fas
 Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live.
 
 Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
-
-
 
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
@@ -53,14 +47,10 @@ We've only scratched the surface of what CloudCannon can do. Install the CloudCa
 
 ## Introducing the Bitbucket Connect Add-on
 
- 
-
 ## How it works for Developers
-
- 
 
 ## How it works for Non-developers
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" modestbranding="1" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" modestbranding="1" allowfullscreen=""></iframe>
 
 For a more in-depth tutorial, check out our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
