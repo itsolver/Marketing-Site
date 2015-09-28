@@ -46,7 +46,7 @@ After adding a site, your files are cloned from your selected branch. A few seco
 
 ## How it works for Non-developers
 
-Non-developers update content inline without the need to understand Git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface. Just add the `class="editable"` to any element to allow the non-developer to edit it inline. They can also update metadata and blog posts with a simple interface.
+Non-developers update content inline without the need to understand Git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface. Just add the `class="editable"` to any element to allow the non-developer to edit it inline. They can also update metadata and create blog posts through a simple interface.
 
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
