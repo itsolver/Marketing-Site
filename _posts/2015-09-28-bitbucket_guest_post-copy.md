@@ -14,7 +14,7 @@ Bitbucket provides developers with great workflows for collaborating on software
 
 What if you could just build static websites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
 
-With the new CloudCannon Bitbucket add-on all of this is now possible. Let's have a look at how it works.
+With the new CloudCannon Bitbucket add-on all this is now possible. Let's have a look at how it works.
 
 ### What is CloudCannon?
 
@@ -22,20 +22,20 @@ With the new CloudCannon Bitbucket add-on all of this is now possible. Let's hav
 
 Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live.
 
-Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
+Non-developers log into CloudCannon and update content inline. All updates are synced between CloudCannon and Bitbucket.
 
-CloudCannon sites are just static files. Compared to a database backed CMS, there are a number of advantages:
+CloudCannon sites are just static files. Compared to a database backed CMS, there are many advantages:
 
 * Less complexity
-* All source files can be stored in Bitbucket
-* Sites are served faster sites as there’s no backend processing
+* All source files are stored in a Bitbucket repository
+* Website load times are  faster sites as there’s no backend processing
 * Minimal security risk
 
 
 CloudCannon makes it easier for non-developers:
 
 * No need to preview content as editing is inline
-* No design breaking changes as developers specify which content non-developers can modify
+* No design breaking changes as developers specify which content non-developers can change
 * Changes can be tested on a live staging site before production with Git branching and multiple environments
 
 
