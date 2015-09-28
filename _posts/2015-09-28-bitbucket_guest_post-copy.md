@@ -24,7 +24,7 @@ Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a
 
 Non-developers log into CloudCannon and update content inline. All updates are synced between CloudCannon and Bitbucket.
 
-CloudCannon sites are just static files. Compared to a database backed CMS, there are many advantages:
+CloudCannon sites are just static files yet advanced layouts, blogging, photo galleries are all possible. Compared to a database backed CMS, there are many advantages:
 
 * Less complexity
 * All source files are stored in a Bitbucket repository
@@ -43,7 +43,7 @@ CloudCannon makes it easier for non-developers:
 
 ## Introducing the Bitbucket Connect Add-on
 
-With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket.You can deploy your static/Jekyll website repository and have non-developers update content in seconds.
+With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. You can deploy your static/Jekyll website repository and have non-developers update content in seconds.
 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
@@ -51,25 +51,27 @@ To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.o
 
 ## How it works for Developers
 
-Once the add-on is installed visit one of your repositories, a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
+Once you install the add-on, visit one of your repositories and a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
 
 ![](/uploads/versions/bb-source---x----900-563x---.png)
 
-Once a site is added your files will be cloned from your selected branch. In a few short moments you will have a live website to test out. CloudCannon will automatically compile, optimise and deploy to a CDN. Any changes that you make on that branch will appear on CloudCannon. As a developer you can update the source as usual through git. Alternatively there is a built in code editor. Any changes made on CloudCannon will be pushed back to Bitbucket.​
+Once a site is added your files are cloned from your selected branch. In a few short moments you will have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch will appear on CloudCannon. As a developer you can update the source as usual through git. Alternatively there is a built in code editor. Any changes made on CloudCannon are pushed back to Bitbucket.​
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.12.43-am---x----900-563x---.png)
 
 ## How it works for Non-developers
 
-Non-developer get to update the content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
+Non-developer update content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
 
 * Inline content editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.
-* Front matter/metadata is updated using an intellegently generated settings panel. Anything from simple strings to our advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/)
+* Front matter/metadata is updated using an intellegently generated settings panel. Anything from simple strings to our advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/).
 * Markdown files are updated in a distraction free mode allowing writers to focus.
 
 
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" rel="0" showinfo="0"></iframe></div>
+
+ 
 
 For a more in-depth tutorial, check out our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
