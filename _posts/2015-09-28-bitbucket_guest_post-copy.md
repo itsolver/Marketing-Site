@@ -12,19 +12,19 @@ author: mike
 
 Bitbucket provides developers with great workflows for collaborating on software projects. So why can't we have these workflows when building websites for non-developers?
 
-What if you could just build static sites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
+What if you could just build static websites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository? What if you could deploy websites straight from Bitbucket?
 
 With the new CloudCannon Bitbucket add-on all of this is now possible. Let's have a look at how it works.
 
 ### What is CloudCannon?
 
-CloudCannon helps agencies and enterprises build websites for non-developers faster
+[CloudCannon](http://cloudcannon.com) helps agencies and enterprises build websites for non-developers faster.
 
 Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live.
 
 Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
 
-CloudCannon sites are made of static files. Compared to a database backed CMS, there are a number of advantages:
+CloudCannon sites are just static files. Compared to a database backed CMS, there are a number of advantages:
 
 * Less complexity
 * All source files can be stored in Bitbucket
@@ -43,6 +43,11 @@ CloudCannon makes it easier for non-developers:
 
 ## Introducing the Bitbucket Connect Add-on
 
+With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. With a few clicks your static/Jekyll website repository is deployed and updatable by non-developers.
+
+To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
+
+![](/uploads/versions/list---x----1000-625x---.png)
 
 ## How it works for Developers
 
@@ -59,7 +64,7 @@ Once a site is added your files will be cloned from your selected branch. In a f
 Non-developer get to update the content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
 
 * Inline content editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.
-* Frontmatter/metadata is updated using an intellegently generated settings panel. Anything from simple strings to our advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/)
+* Front matter/metadata is updated using an intellegently generated settings panel. Anything from simple strings to our advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/)
 * Markdown files are updated in a distraction free mode allowing writers to focus.
 
 
