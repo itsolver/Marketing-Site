@@ -22,6 +22,10 @@ The new CloudCannon Bitbucket Add-on makes all of this possible.
 
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Agencies](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
+<style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
+
 ## Introducing the Bitbucket Connect Add-on
 
 With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. Deploy your static/Jekyll website directly from your repository and have non-developers update content in seconds.
@@ -49,11 +53,7 @@ Non-developers update content inline without the need to understand Git or the u
 * Blog posts are updated in a distraction free mode allowing writers to focus. New blog posts are created as a draft and can be published when ready.
 
 
-<style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
-
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8"></iframe>
-<iframe src="https://www.youtube.com/embed/Pp3YBk3Jmds"  frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe>
-</div>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8"></iframe><iframe src="https://www.youtube.com/embed/Pp3YBk3Jmds" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
 ##  
 
