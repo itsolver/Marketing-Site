@@ -36,7 +36,7 @@ Once you install the Add-on, visit one of your repositories and a CloudCannon op
 
 ![](/uploads/versions/bb-source---x----900-563x---.png)
 
-Once you add a site, your files are cloned from your selected branch. In a few short moments you will have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch will appear on CloudCannon. As a developer you can update locally through Git or using the CloudCannon code editor. Any changes made on CloudCannon are pushed back to Bitbucket.​
+Once you add a site, your files are cloned from your selected branch. In a few short moments you will have a live website to test out. CloudCannon automatically compiles, optimises and deploys your site to a CDN. Any changes you make on that branch appear on CloudCannon. As a developer you can update locally through Git or using the CloudCannon code editor. Any changes made on CloudCannon are pushed back to Bitbucket.​
 
 ![](/uploads/versions/screen-shot-2015-09-28-at-1.12.43-am---x----900-563x---.png)
 
