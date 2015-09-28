@@ -47,7 +47,7 @@ Having all your website source files living in Bitbucket gives you complete flex
 
 Working on a overhaul of the website design? Just create a new branch so it doesn't interfere with non-developers updating content.
 
-Want to see what a website looked like six months ago? Just revert back to commit at that time.
+Want to see what a website looked like six months ago? Just revert back to a commit at that time.
 
 Have a complicated approval process? With pull requests and branching you can make the approval process as complex as you need.
 
@@ -82,4 +82,4 @@ Non-developer update content inline without the need to understand git or the un
 
 ## A simpler way to work
 
- 
+CloudCannon streamlines the entire process of creating websites for non-developers so you can concentrate on creating stunning experiences. Developers no longer need to use heavy-weight 
