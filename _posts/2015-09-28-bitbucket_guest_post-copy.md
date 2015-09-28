@@ -58,7 +58,7 @@ Once you add a site, your files are cloned from your selected branch. In a few s
 
 ## How it works for Non-developers
 
-Non-developers update content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
+Non-developers update content inline without the need to understand Git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
 
 * **Inline editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.**
 * **Front matter/metadata is updated using a generated settings panel. Anything from text to an advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/).**
@@ -71,7 +71,20 @@ Non-developers update content inline without the need to understand git or the u
 
 ##  
 
-Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want. If you need to overhaul a website design you can create a new branch so it doesn't interfere with non-developers updating content. If you want to see what a website looked like six months ago you can revert back to a commit at that time. If you have a complicated approval process you can use pull requests and branching you can make the approval process as complex as you need.
+The CloudCannon Bitbucket Add-on empowers everyone to contribute to a website. Developers get a simpler workflow, their developer tools 
+
+ 
+
+ 
+
+---
+
+Using Bitbucket as a store opens up new workflows:
+
+* Big breaking changes can be seperated new branch so it doesn't interfere with non-develope
+
+
+Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want. If you need to rs updating content. If you want to see what a website looked like six months ago you can revert back to a commit at that time. If you have a complicated approval process you can use pull requests and branching you can make the approval process as complex as you need.
 
 ## ---
 
