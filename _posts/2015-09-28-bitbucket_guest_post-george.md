@@ -18,13 +18,13 @@ The new CloudCannon Bitbucket Add-on makes all of this possible.
 
 ### What is CloudCannon?
 
-[CloudCannon](http://cloudcannon.com) helps agencies and enterprises build websites for non-developers. **Developers** build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. **Non-developers** log into CloudCannon and update the content inline. All changes are synced between CloudCannon and Bitbucket.
+[CloudCannon](http://cloudcannon.com) helps agencies and enterprises build websites for non-developers. **Developers** build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. **Non-developers** log in and update the content inline. All changes are synced between CloudCannon and Bitbucket.
 
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Agencies](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding&playlist=AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;modestbranding&amp;playlist=AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
 ## Introducing the Bitbucket Connect Add-on
 
@@ -52,7 +52,9 @@ Non-developers update content inline without the need to understand Git or the u
 * Eaily update metadata using a generated settings panel. Anything from text to an advanced image picker is configurable.
 * Blog posts are updated in a distraction free mode allowing writers to focus. New blog posts are created as a draft and can be published when ready.
 
+
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8"></iframe><iframe src="https://www.youtube.com/embed/Pp3YBk3Jmds" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
 ##  
