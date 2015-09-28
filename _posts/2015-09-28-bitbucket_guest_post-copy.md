@@ -71,13 +71,7 @@ Non-developers update content inline without the need to understand git or the u
 
 ##  
 
-Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want.
-
-If you need to overhaul a website design you can create a new branch so it doesn't interfere with non-developers updating content.
-
-If you want to see what a website looked like six months ago you can revert back to a commit at that time.
-
-If you have a complicated approval process you can use pull requests and branching you can make the approval process as complex as you need.
+Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want. If you need to overhaul a website design you can create a new branch so it doesn't interfere with non-developers updating content. If you want to see what a website looked like six months ago you can revert back to a commit at that time. If you have a complicated approval process you can use pull requests and branching you can make the approval process as complex as you need.
 
 ## ---
 
