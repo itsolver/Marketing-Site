@@ -10,19 +10,25 @@ author: mike
 
 *This guest post is written by Mike Neumegen, co-founder of CloudCannon.*
 
-Bitbucket provides developers with great workflows for collaborating on software projects. You can see exactly what has changed when someone makes an update, multiple people can make updates at the same time and new features can be separated into branches.
+CloudCannon helps agencies and enterprises build websites for non-developers faster. Bitbucket provides developers with great workflows for collaborating on software projects. You can see exactly what has changed when someone makes an update, multiple people can make updates at the same time and new features can be separated into branches.
 
-So why can't we have these workflows when building websites for non-developers? Database backed content management systems offer basic revision control but they lack the other benefits you get with Bitbucket.
+So why can't we have these workflows when building websites? Sure you could 
 
-The CloudCannon Bitbucket add-on gives developers the advantages of Bitbucket **and** non-developers the tools to update content.
+# Deploy from Bitbucket
+
+# Non-developers inline editing
+
+With the new CloudCannon Bitbucket add-on, developers can deploy websites at the click of a button **and** have non-developers update content.
 
 ### What is CloudCannon?
 
-CloudCannon helps agencies and enterprises build websites for non-developers faster.
+CloudCannon helps agencies and enterprises build websites for non-developers faster
 
 Developers build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live.
 
 Non-developers log into CloudCannon and update content inline. All updates are kept in sync between CloudCannon and Bitbucket.
+
+
 
 [Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
@@ -41,8 +47,20 @@ CloudCannon makes it easier for non-developers:
 * Changes can be tested on a live staging site before production with Git branching and multiple environments
 
 
-### Now you have a live site you can share with your team or clients. Best of all it's all done inside Bitbucket.
+Now you have a live site you can share with your team or clients. Best of all it's all done inside Bitbucket.
 
 We've only scratched the surface of what CloudCannon can do. Install the CloudCannon Bitbucket add-on today and see how much faster you can build websites for non-developers.
+
+## Introducing the Bitbucket Connect Add-on
+
+ 
+
+## How it works for Developers
+
+ 
+
+## How it works for Non-developers
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" modestbranding="1" allowfullscreen></iframe>
 
 For a more in-depth tutorial, check out our [Getting Started Guide](http://docs.cloudcannon.com/getting_started/introduction/).
