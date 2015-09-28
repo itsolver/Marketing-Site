@@ -14,7 +14,7 @@ Bitbucket provides developers with great workflows for collaborating on software
 
 What if you could deploy websites straight from Bitbucket? What if you could build static websites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository?
 
-The new CloudCannon Bitbucket Add-on makes this possible.
+The new CloudCannon Bitbucket Add-on makes all of this possible.
 
 ### What is CloudCannon?
 
@@ -67,10 +67,6 @@ Non-developers update content inline without the need to understand Git or the u
 
 CloudCannon's Bitbucket Connect Add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually.
 
-To get started with Bitbucket Connect see [our full get started tutorial](http://cloudcannon.com/bitbucket-jekyll/). Comment below or get in touch with support at support@cloudcannon.com 
-
-**GET STARTED**
-
-**TUTORIAL** **COMMENT BELOW OR CONTACT SUPPORT** **LINK TO INSTALL AGAIN**
+If you need help setting up your first site have a read of our [our get started tutorial](http://cloudcannon.com/bitbucket-jekyll/) or get in touch through [support](javascript:void(location.href='mailto:'+String.fromCharCode(115,117,112,112,111,114,116,64,99,108,111,117,100,99,97,110,110,111,110,46,99,111,109))) or posting a comment below.
 
 ---
