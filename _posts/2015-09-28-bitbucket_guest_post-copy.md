@@ -43,11 +43,11 @@ With the CloudCannon Bitbucket Connect Add-on, you can work on websites without 
 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
-![](/uploads/versions/list---x----1000-625x---.png)
+![](/uploads/versions/list---x192-72-642-401-1000-625x---.png)
 
 ## How it works for Developers
 
-Once you install the dd-on, visit one of your repositories and a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
+Once you install the Add-on, visit one of your repositories and a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
 
 ![](/uploads/versions/bb-source---x----900-563x---.png)
 
