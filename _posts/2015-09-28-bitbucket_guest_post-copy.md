@@ -43,7 +43,7 @@ CloudCannon makes it easier for non-developers:
 
 ## Introducing the Bitbucket Connect Add-on
 
-With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. With a few clicks your static/Jekyll website repository is deployed and updatable by non-developers.
+With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket.You can deploy your static/Jekyll website repository and have non-developers update content in seconds.
 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
