@@ -6,7 +6,7 @@ category: guest
 author: mike
 ---
 
-## A Content Management System in your Bitbucket Repository
+## Updatable websites in Bitbucket and CloudCannon
 
 *This guest post is written by Mike Neumegen, co-founder of CloudCannon.*
 
