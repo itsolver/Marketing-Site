@@ -69,16 +69,20 @@ Non-developers update content inline without the need to understand git or the u
 
 <div class="embed-container"><iframe src="https://www.youtube.com/embed/AgbVpvk6sV8" frameborder="0" autohide="1" controls="0" modestbranding="1" showinfo="0"></iframe></div>
 
+##  
+
+Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want.
+
+If you need to overhaul a website design you can create a new branch so it doesn't interfere with non-developers updating content.
+
+If you want to see what a website looked like six months ago you can revert back to a commit at that time.
+
+If you have a complicated approval process you can use pull requests and branching you can make the approval process as complex as you need.
+
+## ---
+
 ## A simpler way to work
 
 CloudCannon streamlines the entire process of creating websites for non-developers so you can concentrate on creating stunning experiences. Developers can build faster and have more control when creating websites. Non-developers have a beautiful inline editing experience. The CloudCannon Bitbucket Connect Add-on means you can do all of this from with in Bitbucket.
 
 ---
-
-Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want.
-
-Working on an overhaul of the website design? Just create a new branch so it doesn't interfere with non-developers updating content.
-
-Want to see what a website looked like six months ago? Just revert back to a commit at that time.
-
-Have a complicated approval process? With pull requests and branching you can make the approval process as complex as you need.
