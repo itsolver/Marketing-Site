@@ -28,9 +28,9 @@ CloudCannon sites are just static files yet advanced layouts, blogging, photo ga
 * Minimal security risk
 
 
-CloudCannon makes it easier for non-developers:
+CloudCannon is also easy for non-developers:
 
-* No need to preview content as editing is inline
+* There's no need to preview content as editing is inline
 * No design breaking changes as developers specify which content non-developers can change
 * Changes can be tested on a live staging site before production with Git branching and multiple environments
 
