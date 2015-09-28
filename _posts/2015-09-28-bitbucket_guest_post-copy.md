@@ -43,7 +43,8 @@ With the CloudCannon Bitbucket Connect Add-on, you can work on websites without 
 
 To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.org/account/user/mikeneumegen/addon-directory) and install CloudCannon.
 
-![](/uploads/versions/list---x----1000-625x---.png)
+![](/uploads/versions/list---x----631-302x---.png)
+ 
 
 ## How it works for Developers
 
@@ -57,11 +58,11 @@ Once you add a site, your files are cloned from your selected branch. In a few s
 
 ## How it works for Non-developers
 
-Non-developer update content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
+Non-developers update content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
 
-* Inline content editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.
-* Front matter/metadata is updated using an intellegently generated settings panel. Anything from simple strings to our advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/).
-* Markdown files are updated in a distraction free mode allowing writers to focus.
+* **Inline editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.**
+* **Front matter/metadata is updated using a generated settings panel. Anything from text to an advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/).**
+* Blog posts are updated in a distraction free mode allowing writers to focus. New blog posts are created as a draft and can be published when ready.
 
 
 <style type="text/css">.embed-container { position: relative; padding-bottom: 62.5%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
