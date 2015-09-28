@@ -43,8 +43,6 @@ CloudCannon makes it easier for non-developers:
 
 ## Introducing the Bitbucket Connect Add-on
 
- 
-
 ## How it works for Developers
 
 Once the add-on is installed visit one of your repositories, a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
@@ -59,7 +57,7 @@ Once a site is added your files will be cloned from your selected branch. In a f
 
 Non-developer get to update the content inline without the need to understand git or the underlying files. CloudCannon abstracts all of that away with a clean and easy to use interface.​
 
-* Inline content editing shows what the content looks like before hitting save.  This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.
+* Inline content editing shows what the content looks like before hitting save. This is controlled by adding `class="editable"` to any element. CloudCannon uses the semantics of the element to offer more or less controls.
 * Frontmatter/metadata is updated using an intellegently generated settings panel. Anything from simple strings to our advanced image picker can be used by simply changing variable values or names. See [our documentation for more](http://docs.cloudcannon.com/editing/front-matter/)
 * Markdown files are updated in a distraction free mode allowing writers to focus.
 
