@@ -43,6 +43,7 @@ CloudCannon makes it easier for non-developers:
 
 ## Introducing the Bitbucket Connect Add-on
 
+
 ## How it works for Developers
 
 Once the add-on is installed visit one of your repositories, a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
