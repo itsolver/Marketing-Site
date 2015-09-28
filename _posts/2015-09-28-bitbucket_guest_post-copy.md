@@ -20,7 +20,7 @@ The new CloudCannon Bitbucket Add-on makes this possible.
 
 [CloudCannon](http://cloudcannon.com) helps agencies and enterprises build websites for non-developers. **Developers** build a static or [Jekyll](http://jekyllrb.com) site and push it to a Bitbucket repository. CloudCannon synchronizes the files and deploys the site live. **Non-developers** log into CloudCannon and update the content inline. All changes are synced between CloudCannon and Bitbucket.
 
-CloudCannon sites are static files, yet advanced layouts, blogging, photo galleries are all possible. Compared to a database backed CMS, there are many advantages:
+CloudCannon sites allow advanced layouts, blogging and photo galleries purely using static files. Static sites have many advantages over a database backed CMS:
 
 * Less complexity
 * All source files are stored in a Bitbucket repository
@@ -31,21 +31,13 @@ CloudCannon sites are static files, yet advanced layouts, blogging, photo galler
 CloudCannon is also easy for non-developers:
 
 * There's no need to preview content as editing is inline
+* **Metadata of any complexity... **
 * No design breaking changes as developers specify which content non-developers can change
-* Changes can be tested on a live staging site before production with Git branching and multiple environments
 
 
-[Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Brandon Setter](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
+[Netflix](http://cloudcannon.com/customers/netflix/), [Engine Yard](http://cloudcannon.com/customers/engine-yard/), [Xtendly](http://cloudcannon.com/customers/xtendly/) and [Freelancers](http://cloudcannon.com/customers/brandon-setter/) use CloudCannon to rapidly deploy websites for marketing teams and clients.
 
 ## Introducing the Bitbucket Connect Add-on
-
-Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want.
-
-Working on a overhaul of the website design? Just create a new branch so it doesn't interfere with non-developers updating content.
-
-Want to see what a website looked like six months ago? Just revert back to a commit at that time.
-
-Have a complicated approval process? With pull requests and branching you can make the approval process as complex as you need.
 
 With the CloudCannon Bitbucket Connect Add-on, you can work on websites without leaving Bitbucket. Deploy your static/Jekyll website repository and have non-developers update content in seconds.
 
@@ -55,7 +47,7 @@ To get started, navigate to the [Bitbucket Add-On directory](https://bitbucket.o
 
 ## How it works for Developers
 
-Once you install the add-on, visit one of your repositories and a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
+Once you install the Add-on, visit one of your repositories and a CloudCannon option will be available in the sidebar. Selecting this option will allow you to create sites from this repository. If you already have CloudCannon sites attached to this repository they will be visible here.​
 
 ![](/uploads/versions/bb-source---x----900-563x---.png)
 
@@ -80,4 +72,12 @@ Non-developer update content inline without the need to understand git or the un
 
 CloudCannon streamlines the entire process of creating websites for non-developers so you can concentrate on creating stunning experiences. Developers can build faster and have more control when creating websites. Non-developers have a beautiful inline editing experience. The CloudCannon Bitbucket Connect Add-on means you can do all of this from with in Bitbucket.
 
- 
+---
+
+Having all your website source files living in Bitbucket gives you complete flexibility to work the way you want.
+
+Working on an overhaul of the website design? Just create a new branch so it doesn't interfere with non-developers updating content.
+
+Want to see what a website looked like six months ago? Just revert back to a commit at that time.
+
+Have a complicated approval process? With pull requests and branching you can make the approval process as complex as you need.
