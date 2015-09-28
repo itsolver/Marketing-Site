@@ -54,8 +54,6 @@ Non-developers update content inline without the need to understand Git or the u
 
 ## Get started with CloudCannon and Bitbucket
 
-The CloudCannon Atlassian Connect add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Without realising it, non-developers push changes like developers by updating content visually.
+The CloudCannon Atlassian Connect add-on enables new workflows for the entire team. Developers can build sites locally and deploy them directly from Bitbucket. Non-developers push changes seamlessly by updating content visually.
 
-If you need help setting up your first site have a read of our [our get started tutorial](http://cloudcannon.com/bitbucket-jekyll/) or get in touch through support (support@cloudcannon.com) or posting a comment below.
-
----
+If you need help setting up your first site, have a read of our [get started tutorial](http://cloudcannon.com/bitbucket-jekyll/), get in touch at support@cloudcannon.com or post a comment below.
