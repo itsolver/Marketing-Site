@@ -8,9 +8,9 @@ author: mike
 
 ## Updatable websites with Bitbucket and CloudCannon
 
-*This guest post is written by Mike Neumegen, co-founder of CloudCannon.*
+*This guest post is written by Mike Neumegen, co-founder of CloudCannon. Mike's passionite about startups, discovering new technologies and web design.*
 
-Bitbucket provides developers with great workflows for collaborating on software projects. So why can't we have these workflows when building websites for non-developers?
+Bitbucket provides developers with great workflows for collaborating on software projects. So why can’t we have these workflows when building websites for non-developers?
 
 What if you could deploy websites straight from Bitbucket? What if you could build static websites and have the power of a full blown CMS? What if non-developers could update content and have changes pushed back to your Bitbucket repository?
 
