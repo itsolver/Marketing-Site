@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Output Drafts and Collection Defaults
+title: Output Drafts and zollection Defaults
 header: Output Drafts and Collection Defaults
 category: Features
 post_image: /img/blog/drafts-and-defaults/defaults-in-browser@2x.png
