@@ -22,6 +22,11 @@ collections:
     name: Customers
     output: true
     permalink: /customers/:name/
+gems:
+  - algoliasearch-jekyll
+algolia:
+  application_id: AYDNQ0JOH6
+  index_name: blog_search
 defaults:
   - scope:
       path: ""
