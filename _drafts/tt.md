@@ -8,6 +8,7 @@ post_image_type: image/png
 post_image_width: 1600
 post_image_height: 1000
 author: george
+published: false
 ---
 
 - Be honest
