@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog Archive
+sub_heading: Stay informed with our latest news and tutorials
+permalink: /archive/
+text_wrapper: true
+---
+<ul class="archive-posts">
+	{% for post in site.posts offset:10 %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a> - <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+		</li>
+	{% endfor %}
+</ul>
+
+<hr>
+
+<p><a href="/blog/" class="btn small-btn">Back to blog &rarr;</a></p>

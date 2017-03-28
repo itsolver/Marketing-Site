@@ -1,0 +1,24 @@
+<footer>
+	<div class="wrapper">
+		{% for column in site.data.navigation.footer %}
+		<ul class="footer-links">
+			<li><h2>{{ column.title }}</h2></li>
+			{% for link in column.links %}
+				<li><a {% if link.new_window %}target="_blank"{% endif %} href="{{ link.link }}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+					{% if link.social_icon %}
+						{% include svgs/social-icon.html icon=link.social_icon %}
+					{% endif %}
+					{{ link.name }}</a></li>
+			{% endfor %}
+		</ul>
+		{% endfor %}
+	</div>
+
+	<div class="legal-line">
+		<p class="wrapper">
+			&copy; {{ site.time | date: '%Y' }} CloudCannon Ltd &bull;
+			<a href="https://app.cloudcannon.com/terms">Terms</a> &amp;
+			<a href="https://app.cloudcannon.com/privacy_policy">Privacy</a>
+		</p>
+	</div>
+</footer>

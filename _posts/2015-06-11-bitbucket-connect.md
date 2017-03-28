@@ -12,7 +12,7 @@ Today we're bringing a new level of simplicity to managing [Jekyll](http://jekyl
 
 At the press of a button, Bitbucket users can turn a repository with a Jekyll site into a live website with a beautiful content management system.
 
-{% include proportional-youtube.html width=16 height=10 factor=70 youtube_id="gGZwFvW_U_U" %}
+TODO: youtube link
 
 The workflow is completely seamless. All changes between CloudCannon and Bitbucket are kept in sync so you can always pull a production copy of the site to your local machine.
 
@@ -54,4 +54,4 @@ And also Blogs, Collections and Data Files:
 
 We can't wait to see how you use it. If you're interested in learning more about Jekyll and CloudCannon, check out [Jekyll.tips](http://jekyll.tips) for a Get Started Guide.
 
-{% include proportional-youtube.html width=16 height=10 factor=70 youtube_id="Pp3YBk3Jmds" %}
+TODO Youtube link

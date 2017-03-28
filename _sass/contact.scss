@@ -1,0 +1,20 @@
+.contact{
+	@media #{$desktop} {
+		display: flex;
+		flex-wrap: wrap;
+
+		form {
+			width: 400px;
+		}
+
+		.contact-details {
+			flex: 1;
+			box-sizing: border-box;
+			margin-left: 50px;
+		}
+	}
+
+	form, .contact-details {
+		margin-top: 50px;
+	}
+}

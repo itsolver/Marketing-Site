@@ -1,66 +1,25 @@
 title: CloudCannon
 description: The Cloud CMS for Jekyll. Build static or Jekyll websites, have your team and clients update inline with the CloudCannon GUI.
-url: http://cloudcannon.com
-disqus_shortname: cloudcannon
-
-logo: http://cloudcannon.com/img/cloudcannon-logo.png
-twitter:
-  username: CloudCannonApp
-
-facebook:
-  publisher: https://www.facebook.com/CloudCannon
-
-social:
-  links:
-    - https://www.facebook.com/CloudCannon
-    - https://plus.google.com/+CloudCannon
-    - https://twitter.com/CloudCannonApp
-    - https://www.youtube.com/c/CloudCannon
-    - https://www.linkedin.com/company/cloud-cannon
-    - https://github.com/CloudCannon
+url: https://cloudcannon.com
 
 google_site_verification: GkBrJRSQqF43wQVGLUeUJFTPBldtIXGCw9toqvS2o_o
-company:
-  founded: August 2013
-  team_size: 3
-  address: 226 Musselburgh Rise, Dunedin, 9013, Otago, New Zealand
-  funding: $500K Seed
+address: 226 Musselburgh Rise, Dunedin, 9013, Otago, New Zealand
 
-paginate: 10
 paginate_path: "blog/:num/"
-blog_name: The CloudCannon Blog
-blog_description: Stay informed with the latest news and web development tutorials from CloudCannon, the Cloud CMS for Jekyll and static sites.
 permalink: pretty
 timezone: Pacific/Auckland
 collections:
-  gallery:
-    name: Gallery
-    output: false
-  experts:
-    name: Experts
-    output: false
   staff:
-    name: Team Members
-    output: false
   authors:
-    name: Authors
-    output: false
-  customers:
-    name: Case Studies
+  case_studies:
     output: true
     permalink: /case-studies/:name/
 defaults:
-  - scope:
-      path: ""
-      type: "customers"
-    values:
-      layout: "customer"
   -
     scope:
       path: ""
       type: posts
     values:
-      is_post: true
       layout: post
 
 development:

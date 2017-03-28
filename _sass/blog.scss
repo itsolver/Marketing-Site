@@ -1,0 +1,149 @@
+.blog-posts {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.blog-post {
+	display: block;
+	text-align: left;
+
+	& + .blog-post {
+		margin: 30px 0 0 0;
+		padding: 30px 0 0 0;
+		display: block;
+	}
+
+	h3 {
+		margin-top: 0;}
+
+	p {
+		color: #666;
+		margin-bottom: 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.btn {
+		margin: 20px 0;
+	}
+}
+
+.post-details {
+	margin: 0 0 20px 0;
+	line-height: 1;
+	font-size: 0.9em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+	text-align: left;
+
+	&, a {
+		color: $light-medium-grey;
+	}
+}
+
+.post-details .date {
+	float: right;
+}
+
+.post-author {
+	padding: 20px 0;
+	text-align: left;
+	margin: 20px 0 0 0;
+}
+
+.post-author p {
+	margin-left: 140px;
+}
+
+.post-author img, .post-author-small img {
+	border-radius: 1000px;
+	float: left;
+	height: auto;
+}
+
+.post-author img {
+	margin: 0 20px 20px 0;
+	max-width: 120px;
+}
+
+.post-author-small img {
+	max-width: 60px;
+	margin: 5px 12px 0 0;
+}
+
+.sharing {
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			margin: 10px 0 0 0;
+		}
+
+		svg {
+			background-color: black;
+			fill: #fff;
+			padding: 6px;
+			border-radius: 3px;
+			margin: 0 10px 0 0;
+			transition: border-radius 200ms ease-in;
+
+			&.email {
+				background-color: #ff9d09;
+			}
+
+			&.facebook {
+				background-color: #3b5998;
+			}
+
+			&.twitter {
+				background-color: #55acee;
+			}
+
+			&.google-plus {
+				background-color: #db4437;
+			}
+
+			&.youtube {
+				background-color: #cd201f;
+			}
+
+			&.instagram {
+				background-color: #f167f5;
+			}
+
+			&.linkedin {
+				background-color: #0077b5;
+			}
+
+			&.pinterest {
+				background-color: #bd081c;
+			}
+
+			&.hacker-news {
+				background-color: #ff6600;
+			}
+
+			&.designer-news {
+				background-color: #2d72d9;
+			}
+		}
+	}
+
+	a {
+		text-decoration: none;
+		padding: 3px 0;
+		display: flex;
+		align-items: center;
+		font-size: 1.1em;
+		color: #666;
+
+		&:hover {
+			color: #111;
+		}
+	}
+}

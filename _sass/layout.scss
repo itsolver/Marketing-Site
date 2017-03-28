@@ -1,0 +1,37 @@
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 30px;
+	position: relative;
+}
+
+.wrapper.text-wrapper {
+	max-width: 800px;
+}
+
+.small-hero, .hero {
+	background: #26abe2;
+	color: #fff;
+
+	h1 {
+		padding: 0;
+		margin: 0;
+		color: #fff;
+	}
+}
+
+.small-hero {
+	text-align: center;
+}
+
+.content, .small-hero, .landing-wrap, .testimonial {
+	padding: 50px 0;
+}
+
+.cta {
+	padding: 80px 0;
+}
+
+.content {
+	background: #fff;
+}

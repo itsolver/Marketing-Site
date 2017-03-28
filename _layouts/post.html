@@ -1,41 +1,79 @@
 ---
-layout: default
+layout: page
+text_wrapper: true
 ---
 
-<section>
-	<div class="container post-container text-container">
-		<p class="post-details"><a href="/blog">Blog</a> | {{ page.category }} | {{ page.header }} <span class="date">{{ page.date | date: "%B %d, %Y" }}</span></p>
-		{{ content | split:'<!-- excerpt stop -->' | last }}
+<p class="post-details"><a href="/blog">Blog</a> | <a href="/categories/{{ page.category | slugify }}">{{ page.category }}</a> | {{ page.header }} <span class="date">{{ page.date | date: "%B %d, %Y" }}</span></p>
+{{ content | split:'<!-- excerpt stop -->' | last }}
 
-		<hr>
-		<div class="share-options">
-				{% assign url = page.url | prepend: site[jekyll.environment].url | cgi_escape %}
-				<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
-						{% include social-icon.html social_icon="facebook" %} Share
-				</a><a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | markdownify | strip_html | cgi_escape }}%20on%20{{ site.title | cgi_escape }}&amp;via=CloudCannonApp" target="_blank">
-						{% include social-icon.html social_icon="twitter" %} Tweet
-				</a><a class="share-btn google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank">
-						{% include social-icon.html social_icon="google-plus" %} Share
-				</a>
+<hr>
+
+<div class="tutorial-share">
+	<a class="modalOpen no-smooth" href="#subscribe">{% include svgs/social-icon.html icon="Email" %} Subscribe</a>
+	<a class="modalOpen no-smooth" href="#share">{% include svgs/social-icon.html icon="Share" %} Share</a>
+</div>
+
+{% if page.author %}
+	{% assign author = site.authors | where: "author", page.author | first %}
+	{% if author %}
+		<div class="post-author clearfix">
+			<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
+			<p><a target="_blank" href="https://twitter.com/{{ author.twitter_username }}">{{ author.name }}</a> {{ author.bio }}</p>
 		</div>
+	{% endif %}
+{% endif %}
 
-		<section class="centered blog-cta">
-			<div class="container">
-				<h3>Keep up to date with CloudCannon articles, tutorials, templates and other Jekyll news</h3>
-				<p><a href="http://eepurl.com/bOepo5" class="btn btn-primary btn-large btn-block btn-centered">Subscribe</a></p>
-			</div>
-		</section>
+{% include disqus.html %}
 
-		{% if page.author %}
-			{% assign author = site.authors | where: "author", page.author | first %}
-			{% if author %}
-				<div class="post-author clearfix">
-					<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
-					<p><a target="_blank" href="https://twitter.com/{{ author.twitter_username }}">{{ author.name }}</a> {{ author.bio }}</p>
-				</div>
-			{% endif %}
-		{% endif %}
-
-		{% include disqus.html %}
+<div id="subscribe" class="modalDialog">
+	<div>
+		<a title="Close" class="close">&times;</a>
+		<form action="{{ site.newsletter_action }}" method="post">
+			<h2>Subscribe</h2>
+			<p>The latest updates and tutorials sent straight to your inbox.</p>
+			<input type="email" name="EMAIL" placeholder="Email Address">
+			<input type="submit" value="Sign up">
+		</form>
 	</div>
-</section>
+</div>
+
+<div id="share" class="modalDialog sharing">
+	<div>
+		<a title="Close" class="close">&times;</a>
+		<h2>Share</h2>
+		<p>Share this post with your community.</p>
+		<ul>
+			<li><a class="twitter" target="_blank" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | cgi_escape }}">{% include svgs/social-icon.html icon="twitter" %} Twitter</a></li>
+			<li><a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}">{% include svgs/social-icon.html icon="facebook2" %} Facebook</a></li>
+			<li><a class="google-plus" target="_blank" href="https://plus.google.com/share?url={{ page.url | prepend: site.url | cgi_escape }}">{% include svgs/social-icon.html icon="google-plus" %} Google+</a></li>
+			<li><a class="hacker-news" target="_blank" href="http://news.ycombinator.com/submitlink?u={{ page.url | prepend: site.url | cgi_escape }}&t={{ page.title | cgi_escape | replace: "+", "%20" }}">{% include svgs/social-icon.html icon="hacker-news" %} Hacker News</a></li>
+		</ul>
+	</div>
+</div>
+
+<script>
+	$(function() {
+		$(".modalOpen").click(function() {
+			var id = $(this).attr("href");
+			$(id).addClass("show");
+			$(window).click(function() {
+				$(".show").removeClass("show");
+			});
+			$(id + " > div").click(function(event){
+				event.stopPropagation();
+			});
+			return false;
+		});
+
+		$(".close").click(function() {
+			$(".show").removeClass("show");
+			return false;
+		});
+
+		$(document).keyup(function(e) {
+			if (e.keyCode == 27) {
+				$(".show").removeClass("show");
+			}
+		});
+	});
+</script>

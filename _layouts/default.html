@@ -1,121 +1,32 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="HandheldFriendly" content="True">
-		<meta name="MobileOptimized" content="320">
-		{% include seo.html %}
-		{% feed_meta %}
-		{% include analytics.html %}
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css">
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic,300,700,700italic|Open+Sans:400italic,600italic,700italic,700,600,400|Inconsolata:400,700|Material+Icons">
-		<link rel="stylesheet" href="/css/screen.css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 
 	<body>
-		<nav>
-			<div class="container">
-				<h1>
-					<a href="/" {% if page.url == '/' %}class="active"{% endif %}>
-						<img src="/img/logo.png" width="68" height="46" alt="CloudCannon">
-					</a>
-				</h1>
-				<div id="menu">
-					<ul class="site">
-						{% for item in site.data.navigation %}
-							<li>
-								<a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>{{ item.name }}</a>
-							</li>
-						{% endfor %}
-					</ul>
-
-					<ul class="user">
-						<li><a target="_blank" href="https://docs.cloudcannon.com/">Docs</a></li>
-						<li><a href="https://app.cloudcannon.com/">Log in</a></li>
-						<li><a href="https://app.cloudcannon.com/users/sign_up" class="sign-up">Sign Up</a></li>
-					</ul>
-				</div>
-
-				<a id="menu-toggle" href="#"><img src="/img/menu.svg" width="30" height="30" alt="Menu"></a>
+		<header>
+			<div class="wrapper">
+				<section class="top-bar">
+					<div class="logo">
+						<a href="/">
+							{% include svgs/logo.html %}
+							<span>CloudCannon</span>
+						</a>
+					</div>
+					{% include navigation/main.html %}
+					{% include navigation/right.html %}
+				</section>
 			</div>
-		</nav>
-
-		{% if page.header %}
-			<header>
-				<div class="container">
-					<h2>{{ page.header }}</h2>
-					{% if page.header_subtext %}
-						<p class="sub-text">{{ page.header_subtext }}</p>
-					{% elsif page.author %}
-						{% assign author = site.authors | where: "author", page.author | first %}
-						{% if author %}
-							<p class="sub-text">by {{ author.name }}</p>
-						{% endif %}
-					{% endif %}
-
-					{% if page.header_shares %}
-						<div class="share-options">
-							{% assign url = page.url | prepend: site[jekyll.environment].url | cgi_escape %}
-							<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
-								{% include social-icon.html social_icon="facebook" %} Share
-							</a><a class="share-btn twitter" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&amp;text={{ page.share_text | cgi_escape }}&amp;via=CloudCannonApp" target="_blank">
-								{% include social-icon.html social_icon="twitter" %} Tweet
-							</a><a class="share-btn google-plus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank">
-								{% include social-icon.html social_icon="google-plus" %} Share
-							</a>
-						</div>
-					{% endif %}
-				</div>
-			</header>
-		{% endif %}
-
+		</header>
 		{{ content }}
-
-		<footer>
-			<div class="container">
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-					<ul class="footer-links">
-						<li><h2>{{ column.title }}</h2></li>
-						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{{ link.link }}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
-								{% if link.social_icon %}
-									{% include social-icon.html social_icon=link.social_icon %}
-								{% endif %}
-								{{ link.name }}</a></li>
-						{% endfor %}
-					</ul>
-					{% endfor %}
-				</div>
-			</div>
-
-			<div class="legal-line">
-				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} CloudCannon Ltd &bull;
-					<a href="https://app.cloudcannon.com/terms">Terms</a> &amp;
-					<a href="https://app.cloudcannon.com/privacy_policy">Privacy</a>
-				</p>
-			</div>
-		</footer>
-
-		<script src="/js/layout.js"></script>
-		<script type="text/javascript">
-			function isTouchDevice() {
-				return "ontouchstart" in window || "onmsgesturechange" in window;
-			}
-
-			if (!isTouchDevice()) {
-				document.body.classList.add("no-touch");
-			}
-		</script>
-
-		{% if layout.landing_page %}
-			<script type="text/javascript">
-				$(window).load(function () {
-					window.eventsWrapper.record("Visited Landing Page");
-				});
-			</script>
-		{% endif %}
+		{% include navigation/footer.html %}
 	</body>
 </html>

@@ -155,19 +155,7 @@ Identifying shared initial frustrations with Jekyll might make you feel better a
 
 **&quot;What was the first roadblock/hurdle/facepalm moment you had to overcome to begin using Jekyll?&quot;**
 
-{% include /quote.html quote=page.quotes.harry%}
-{% include /quote.html quote=page.quotes.paul%}
-{% include /quote.html quote=page.quotes.brett%}
-{% include /quote.html quote=page.quotes.johan%}
-{% include /quote.html quote=page.quotes.michelle%}
-{% include /quote.html quote=page.quotes.michael%}
-{% include /quote.html quote=page.quotes.john%}
-{% include /quote.html quote=page.quotes.travis%}
-{% include /quote.html quote=page.quotes.adam%}
-{% include /quote.html quote=page.quotes.richard%}
-{% include /quote.html quote=page.quotes.alan%}
-{% include /quote.html quote=page.quotes.dave%}
-{% include /quote.html quote=page.quotes.mike%}
+TODO: Quotes
 
 #### Plug from CloudCannon:
 

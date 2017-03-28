@@ -19,30 +19,16 @@ $break-larger: 950px;
 @import "brand/checkbox";
 @import "brand/tables";
 
-// Site styles
-@import "animation";
-@import "general";
+@import "about";
+@import "variables";
+@import "typography";
 @import "layout";
-@import "navigation";
-@import "grid";
-@import "iframe";
-@import "forms";
-
-// Page styles
+@import "elements";
+@import "header";
+@import "footer";
 @import "blog";
-@import "pricing";
-@import "staff-profiles";
-@import "freebies";
-@import "press";
-@import "customers";
-@import "landing_page";
-@import "gallery";
-
-// Generic Interfaces
-@import "video-dialog";
-@import "browser-wrapper";
-@import "slideshow";
-@import "social";
-
-@import "blog/quotes";
-@import "blog/services";
+@import "landing-page";
+@import "case-study";
+@import "contact";
+@import "modal";
+@import "cloudcannon";

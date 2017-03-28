@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="small-hero">
+	<div class="wrapper">
+		<h1>{{ page.title }}</h1>
+		<p>
+			{% if page.sub_heading %}
+				{{ page.sub_heading }}
+			{% elsif page.author %}
+				{% assign author = site.authors | where: "author", page.author | first %}
+				By {{ author.name }}
+			{% endif %}
+		</p>
+	</div>
+</section>
+
+<section class="content">
+	<div class="wrapper {% if page.text_wrapper or layout.text_wrapper %}text-wrapper{% endif %}">
+		{{ content }}
+	</div>
+</section>

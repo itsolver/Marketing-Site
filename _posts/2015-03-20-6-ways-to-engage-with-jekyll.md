@@ -123,7 +123,7 @@ Top 6 Jekyll contribution gaps you can fill as identified by the Jekyll communit
 
 **1.  Evangelists**
 
-{% include /quote.html quote=page.quotes.mike%}
+TODO Quotes.
 
 Normally I leave the quotes to the bottom of these posts but I want to highlight this one. I think it is my favourite quote from this whole research process.
 
@@ -174,17 +174,7 @@ Again, we touched on this [last week](http://cloudcannon.com/jekyll/2015/03/13/5
 
 **&quot;What is Jekyll and/or it&#39;s community currently missing?&quot;**
 
-{% include /quote.html quote=page.quotes.paul%}
-{% include /quote.html quote=page.quotes.brett%}
-{% include /quote.html quote=page.quotes.michael%}
-{% include /quote.html quote=page.quotes.michelle%}
-{% include /quote.html quote=page.quotes.john%}
-{% include /quote.html quote=page.quotes.travis%}
-{% include /quote.html quote=page.quotes.adam%}
-{% include /quote.html quote=page.quotes.richard%}
-{% include /quote.html quote=page.quotes.alan%}
-{% include /quote.html quote=page.quotes.marco%}
-{% include /quote.html quote=page.quotes.matt%}
+todo quotes
 
 #### Bottom line.
 
