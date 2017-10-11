@@ -1,19 +1,22 @@
-.staff {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	display: flex;
-
-	li {
-		flex: 1 0 300px;
+.about {
+	h1 {
 		text-align: center;
+		margin: 0 0 100px 0;
+	}
 
-		a {
-			text-decoration: none;
+	.feature-content {
+		background: #fff;
+		padding: 0;
+
+		ul {
+			li {
+				border: 1px solid $light-grey;
+			}
 		}
-		
-		img {
-			border-radius: 200px;
+
+		h2 {
+			text-align: left;
+			margin: 0.83em 0;
 		}
 	}
 }

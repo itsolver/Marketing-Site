@@ -4,9 +4,8 @@ header: Smiley.js
 category: Freebies
 author: george
 permalink: /freebies/2014/04/02/rotating-smiley-faces-the-right-way.html
+featured_image: /images/blog/smileys.js.png
 ---
-
-![Smiley Project Page](/img/blog/smileys.js.png)
 I recently released a small script I built last year. I took the time to clean it up and I thought you all might enjoy it.
 
 I'm proud to announce the Smiley.js Jquery plugin. This tiny plugin can take some ordinary looking smiley faces and turn them into things that people actually recognise :D --> <span class="cheese">:D</span>.

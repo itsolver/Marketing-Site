@@ -1,42 +1,60 @@
 ---
-layout: page
+layout: short
+heading: "The latest in CloudCannon &amp; Jekyll"
+subtitle: Stay informed with our latest news and tutorials
 title: Blog
-sub_heading: Stay informed with our latest news and tutorials
-description: Stay informed with the latest news and web development tutorials from CloudCannon, the Cloud CMS for Jekyll and static sites.
 permalink: /blog/
-text_wrapper: true
 sitemap:
   changefreq: daily
   priority: 0.8
 ---
 
+<div class="subscribe">
+	<form>
+		<label class="form-icon">
+			<i class="material-icons">email</i>
+			<input type="text" name="email" placeholder="Your email">
+			<input type="submit" class="dark-blue" value="subscribe">
+		</label>
+	</form>
+</div>
+
 <ul class="blog-posts">
-	{% for post in site.posts limit:10 %}
-		<li class="blog-post">
-			<div class="post-author-small">
-				{% assign author = site.authors | where: "author", post.author | first %}
-				<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
-
-				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-				<div class="post-details">
-					<a href="/categories/{{ post.category | slugify}}">{{ post.category }}</a>
-					<span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+	{% for post in site.posts limit: 10 %}
+		<li class="blog-post card">
+			{% if post.featured_image %}
+				<div class="feature-image">
+					<img src="{{ post.featured_image }}" alt="{{ post.title}}">
 				</div>
+			{% endif %}
+			<div class="post-box">
+				<div class="title">
+					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<div class="post-date">{{ post.date | date: "%d %b %Y" }}</div>
+				</div>
+
+				<div class="post-details">
+					{% assign author = site.authors | where: "author", post.author | first %}
+					<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
+					<span class="name">{{ author.name }}</span>
+					{% for category in post.categories %}
+						<span class="category">&bull;</span> {{ category}}
+					{% endfor %}
+
+				</div>
+
+				<div class="post-summary">
+					{% if post.content contains '<!-- excerpt stop -->' %}
+						{{ post.content | split:'<!-- excerpt stop -->' | first }}
+					{% else %}
+						{{ post.excerpt }}
+					{% endif %}
+				</div>
+
+				<p class="read-more"><a class="button light smaller-text no-border no-padding no-hover" href="{{ post.url }}">Read more &rsaquo;</a></p>
 			</div>
-
-			<p>
-				{% if post.content contains '<!-- excerpt stop -->' %}
-					{{ post.content | split:'<!-- excerpt stop -->' | first }}
-				{% else %}
-					{{ post.excerpt }}
-				{% endif %}
-			</p>
-
-			<a href="{{ post.url }}" class="btn small-btn">Read more  &rarr;</a>
 		</li>
 	{% endfor %}
 </ul>
 
-<hr>
-
-<p><a href="/archive/" class="btn small-btn">Older posts  &rarr;</a></p>
+<p class="view-archived"><a class="button light smaller-text" href="/archived/">View archived</a></p>

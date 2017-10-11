@@ -1,5 +1,5 @@
 ---
-image_path: /img/team/mike.jpg
+image_path: /images/team/mike.jpg
 twitter_username: mikeneumegen
 author: mike
 name: Mike Neumegen

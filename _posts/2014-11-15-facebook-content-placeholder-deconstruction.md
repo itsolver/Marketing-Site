@@ -4,7 +4,7 @@ header: Facebook content placeholder deconstruction
 category: Deconstructions
 author: george
 permalink: /deconstructions/2014/11/15/facebook-content-placeholder-deconstruction.html
-post_image: /img/blog/facebook-content-placeholder.png
+post_image: /images/blog/facebook-content-placeholder.png
 post_image_type: image/png
 post_image_width: 1076
 post_image_height: 532

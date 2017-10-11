@@ -2,7 +2,7 @@
 title: Plugins and SSL Private Beta
 header: Plugins and SSL Private Beta
 category: Features
-post_image: /img/blog/plugins/filetypes@2x.png
+post_image: /images/blog/plugins/filetypes@2x.png
 post_image_type: image/png
 post_image_width: 1600
 post_image_height: 1000
@@ -13,7 +13,7 @@ This week we are excited to announce the beginning of two features: the ability 
 
 ## Plugins Private Beta
 
-![Ruby and Gemfiles are now supported within CloudCannon](/img/blog/plugins/filetypes.png){: srcset="/img/blog/plugins/filetypes.png 800w, /img/blog/plugins/filetypes@2x.png 1600w"}
+![Ruby and Gemfiles are now supported within CloudCannon](/images/blog/plugins/filetypes.png){: srcset="/images/blog/plugins/filetypes.png 800w, /images/blog/plugins/filetypes@2x.png 1600w"}
 
 Plugins support allows you to add custom plugins to any site and CloudCannon executes the custom code. Add plugins using a Gemfile or with Ruby files directly within the `_plugins` directory.
 
@@ -29,7 +29,7 @@ Enjoy the editing of CloudCannon with the full power of Jekyll. [Get in touch](m
 
 ## SSL Private Beta
 
-![Add HTTPS to your CloudCannon Site](/img/blog/plugins/https.png){: srcset="/img/blog/plugins/https.png 800w, /img/blog/plugins/https@2x.png 1600w"}
+![Add HTTPS to your CloudCannon Site](/images/blog/plugins/https.png){: srcset="/images/blog/plugins/https.png 800w, /images/blog/plugins/https@2x.png 1600w"}
 
 Dozens of users are already using our SSL Support. This allows you to serve any traffic on your site over SSL. Simply upload your cert and connect it to your site. This enables HTTPS for any traffic to your site.
 

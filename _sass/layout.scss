@@ -1,37 +1,54 @@
 .wrapper {
-	max-width: 1000px;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: $space $wrapper-pad;
+	max-width: $wrapper-width;
+	width: 100%;
 	position: relative;
-}
+	box-sizing: border-box;
+	&.large {
+		max-width: $wrapper-width * 1.2;
+	}
 
-.wrapper.text-wrapper {
-	max-width: 800px;
-}
-
-.small-hero, .hero {
-	background: #26abe2;
-	color: #fff;
-
-	h1 {
-		padding: 0;
-		margin: 0;
-		color: #fff;
+	&.small-pad {
+		padding-top: $half-space;
+		padding-bottom: $half-space;
 	}
 }
 
-.small-hero {
-	text-align: center;
+.dark-content {
+	background: $grey-bg;
+	padding: $half-space 0 0 0;
 }
 
-.content, .small-hero, .landing-wrap, .testimonial {
-	padding: 50px 0;
+.screenshot {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
+	border-radius: $border-raidus;
+	margin-left: auto;
+	margin-right: auto;
+	background: #DDD url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E) 4px 4px no-repeat;
+	padding: 20px 0 62.5% 0;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
 }
 
-.cta {
-	padding: 80px 0;
+iframe.screenshot {
+	height: 500px;
+	margin: 0 auto 2em;
 }
 
-.content {
+.card {
 	background: #fff;
+	box-sizing: border-box;
+	margin: 10px;
+	border-radius: $border-raidus;
+	padding: $card-padding;
+	position: relative;
+
+	&.big {
+		padding: $card-padding + 15px;
+	}
 }

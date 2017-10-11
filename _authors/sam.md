@@ -1,5 +1,5 @@
 ---
-image_path: /img/authors/sam.jpg
+image_path: /images/authors/sam.jpg
 twitter_username: sambonney
 author: sam
 name: Sam Bonney

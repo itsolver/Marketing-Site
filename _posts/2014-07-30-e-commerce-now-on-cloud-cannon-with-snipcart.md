@@ -4,14 +4,14 @@ header: E-commerce now on CloudCannon with Snipcart
 category: Tutorials
 author: sam
 permalink: /tutorials/2014/07/30/e-commerce-now-on-cloud-cannon-with-snipcart.html
+featured_image: /images/blog/snipcart-response/cloudcannon_and_snipcart.png
 ---
 
-![CloudCannon + Snipcart](/img/blog/snipcart-response/cloudcannon_and_snipcart.png)
 We believe the approach we’ve taken with CloudCannon CMS is the right way to remove the technical junk that web designers shouldn't have to deal with when adding content management to their website, but we’ve struggled to find anyone who has the same philosophy when it comes to e-commerce. Until now.
 
 #### Behold:
 
-![Snipcart logo](/img/blog/snipcart-response/snipcart.png)
+![Snipcart logo](/images/blog/snipcart-response/snipcart.png)
 
 [Snipcart](http://www.snipcart.com) is the solution we’ve been waiting for! And now we reckon e-commerce on CloudCannon is going to be awesome!
 

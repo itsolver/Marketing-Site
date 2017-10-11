@@ -349,7 +349,7 @@ iframe {
 
 .snow {
     background-color: #eee;
-    background-image: url('/img/blog/deconstructions/snow.png'), url('/img/blog/deconstructions/snow2.png'), url('/img/blog/deconstructions/snow3.png');
+    background-image: url('/images/blog/deconstructions/snow.png'), url('/images/blog/deconstructions/snow2.png'), url('/images/blog/deconstructions/snow3.png');
 
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;

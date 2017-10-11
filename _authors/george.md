@@ -1,5 +1,5 @@
 ---
-image_path: /img/team/george.jpg
+image_path: /images/team/george.jpg
 twitter_username: gphillips_nz
 author: george
 name: George Phillips

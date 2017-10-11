@@ -13,7 +13,7 @@
 /for-enterprise/ /enterprise/
 /for-agencies/ /agencies/
 /for-freelancers/ /freelancers/
-/img/cloud_cannon_logo.png /img/cloudcannon-logo.png
+/images/cloud_cannon_logo.png /images/cloudcannon-logo.png
 /sitemap/ /sitemap.xml
 /customers/netflix/ /case-studies/netflix/
 /customers/engine-yard/ /case-studies/engine-yard/

@@ -10,4 +10,4 @@ Video promotion is over 6 times more effective than print and online<sub><a targ
 
 The file browser has also been upgraded so you can preview video, audio and font files.
 
-![Font Preview](/img/blog/font-preview.png)
+![Font Preview](/images/blog/font-preview.png)

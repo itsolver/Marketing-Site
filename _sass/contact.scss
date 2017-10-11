@@ -1,20 +1,62 @@
-.contact{
-	@media #{$desktop} {
-		display: flex;
-		flex-wrap: wrap;
+.contact {
+	h2 {
+		margin-top: 0;
+	}
+	.wrapper {
+		display: block;
+		align-items: center;
 
-		form {
-			width: 400px;
-		}
-
-		.contact-details {
-			flex: 1;
-			box-sizing: border-box;
-			margin-left: 50px;
+		.contact-content, form {
+			flex: 1 1 300px;
+			padding: 0;
 		}
 	}
 
-	form, .contact-details {
-		margin-top: 50px;
+	.text-field {
+		display: flex;
+		margin: 0 -5px;
+		label {
+			display: block;
+			flex: 1;
+			margin-left: 5px;
+			margin-right: 5px;
+			input {
+				width: 100%;
+				box-sizing: border-box;
+			}
+		}
+	}
+
+	input[type="text"], input[type="email"], input[type="password"], textarea {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		background: $grey-bg;
+
+		&:focus {
+			border-color: #888;
+		}
+	}
+
+	form {
+		padding:0 5px;
+		margin-top: $half-space;
+	}
+}
+
+@media only screen and (min-width: $menu-break) {
+	.contact .wrapper {
+		display: flex;
+
+		.contact-content {
+			padding: 0 30px 0 0;
+		}
+
+		form {
+			padding: 0 0 0 30px;
+		}
+
+		form {
+			margin-top: 0;
+		}
 	}
 }

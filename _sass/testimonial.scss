@@ -1,0 +1,61 @@
+.testimonial {
+	background: $testimonial-bg;
+
+	blockquote {
+		margin: 0;
+		box-shadow: 0px 12px 34px 5px rgba(0,0,0,0.05);
+	}
+
+	.author {
+		display: flex;
+		align-items: center;
+		img {
+			border-radius: 50px;
+			max-width: none;
+		}
+
+		p {
+			padding: 0 20px;
+			margin: 0;
+		}
+
+		span {
+			display: block;
+			padding: 2px 0;
+			line-height: 1em;
+		}
+
+		.name {
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+
+		.title {
+			color: $footer-color;
+			font-size: $font-smaller;
+		}
+	}
+
+	.quote {
+		font-size: 1.4em;
+		font-style: italic;
+		line-height: 2.3rem;
+	}
+
+	svg {
+		height: 25px;
+		margin-top: $quarter-space;
+	}
+
+	.view-button {
+		display: none;
+		text-align: center;
+
+		.button {
+			color: $brand-color;
+			background: rgba(0,0,0,0);
+		}
+	}
+
+
+}

@@ -1,79 +1,24 @@
 ---
 layout: page
-text_wrapper: true
+icons: true
 ---
 
-<p class="post-details"><a href="/blog">Blog</a> | <a href="/categories/{{ page.category | slugify }}">{{ page.category }}</a> | {{ page.header }} <span class="date">{{ page.date | date: "%B %d, %Y" }}</span></p>
-{{ content | split:'<!-- excerpt stop -->' | last }}
-
-<hr>
-
-<div class="tutorial-share">
-	<a class="modalOpen no-smooth" href="#subscribe">{% include svgs/social-icon.html icon="Email" %} Subscribe</a>
-	<a class="modalOpen no-smooth" href="#share">{% include svgs/social-icon.html icon="Share" %} Share</a>
-</div>
-
-{% if page.author %}
-	{% assign author = site.authors | where: "author", page.author | first %}
-	{% if author %}
-		<div class="post-author clearfix">
+<div class="post">
+	<div class="wrapper">
+		<p class="post-date">{{ page.date | date: "%d %b %Y" }}</p>
+		<h1>{{ page.title }}</h1>
+		<div class="post-details">
+			{% assign author = site.authors | where: "author", page.author | first %}
 			<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
-			<p><a target="_blank" href="https://twitter.com/{{ author.twitter_username }}">{{ author.name }}</a> {{ author.bio }}</p>
+			<span class="name">{{ author.name }}</span>
+			{% for category in page.categories %}
+				<span class="category">&bull;</span> {{ category}}
+			{% endfor %}
 		</div>
-	{% endif %}
-{% endif %}
+		<div class="post-content">
+			{{ content }}
 
-{% include disqus.html %}
-
-<div id="subscribe" class="modalDialog">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<form action="{{ site.newsletter_action }}" method="post">
-			<h2>Subscribe</h2>
-			<p>The latest updates and tutorials sent straight to your inbox.</p>
-			<input type="email" name="EMAIL" placeholder="Email Address">
-			<input type="submit" value="Sign up">
-		</form>
+			{% include components/blog/sharing-bar.html url=page.url title=page.title %}
+		</div>
 	</div>
 </div>
-
-<div id="share" class="modalDialog sharing">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<h2>Share</h2>
-		<p>Share this post with your community.</p>
-		<ul>
-			<li><a class="twitter" target="_blank" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | cgi_escape }}">{% include svgs/social-icon.html icon="twitter" %} Twitter</a></li>
-			<li><a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | cgi_escape }}">{% include svgs/social-icon.html icon="facebook2" %} Facebook</a></li>
-			<li><a class="google-plus" target="_blank" href="https://plus.google.com/share?url={{ page.url | prepend: site.url | cgi_escape }}">{% include svgs/social-icon.html icon="google-plus" %} Google+</a></li>
-			<li><a class="hacker-news" target="_blank" href="http://news.ycombinator.com/submitlink?u={{ page.url | prepend: site.url | cgi_escape }}&t={{ page.title | cgi_escape | replace: "+", "%20" }}">{% include svgs/social-icon.html icon="hacker-news" %} Hacker News</a></li>
-		</ul>
-	</div>
-</div>
-
-<script>
-	$(function() {
-		$(".modalOpen").click(function() {
-			var id = $(this).attr("href");
-			$(id).addClass("show");
-			$(window).click(function() {
-				$(".show").removeClass("show");
-			});
-			$(id + " > div").click(function(event){
-				event.stopPropagation();
-			});
-			return false;
-		});
-
-		$(".close").click(function() {
-			$(".show").removeClass("show");
-			return false;
-		});
-
-		$(document).keyup(function(e) {
-			if (e.keyCode == 27) {
-				$(".show").removeClass("show");
-			}
-		});
-	});
-</script>

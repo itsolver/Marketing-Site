@@ -1,36 +1,34 @@
 ---
 layout: page
 title: Contact
-sub_heading: Ask a question or send us a message
-description: Ask a question or send a message to the team at CloudCannon, the Cloud CMS for Jekyll and static sites.
+icons: true
 permalink: /contact/
 ---
 
-<iframe height="300" frameborder="0" style="border:0; background: #eee; display: block; width: 100%;" src="https://www.google.com/maps/embed/v1/place?key={{ site[jekyll.environment].google_maps_embed_api_key }}&q={{ site.address | remove: ',' | replace: ' ','+' | uri_escape }}"></iframe>
-
 <div class="contact">
-	<form action="/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="cc_emails[]" value="support@cloudcannon.com">
+	<div class="wrapper">
+		<div class="contact-content">
+			<h2>Let's talk</h2>
+			<p>Have questions about CloudCannon Jekyll or anything else? Send us a message and we'll get back to you.</p>
+			<p><a href="mailto:support@cloudcannon.com">support@cloudcannon.com</a></p>
+		</div>
+		<form action="/contact-success/" method="post" class="contact-form">
+			<input type="hidden" name="cc_emails[]" value="support@cloudcannon.com">
 
-		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name">
+			<div class="text-field">
+				<label class="form-icon">
+					<i class="material-icons">person</i>
+					<input type="text" name="name" id="name" placeholder="Name">
+				</label>
 
-		<label for="email">Email Address</label>
-		<input type="email" name="email" id="email" required>
+				<label class="form-icon">
+					<i class="material-icons">email</i>
+					<input type="email" name="email" id="email" placeholder="Email" required>
+				</label>
+			</div>
+			<textarea name="message" id="message" placeholder="Your Message"></textarea>
 
-		<label for="message">Message</label>
-		<textarea name="message" id="message"></textarea>
-
-		<input type="submit" value="Send Message">
-	</form>
-
-	<div class="contact-details">
-		<h4>Address</h4>
-		<p>
-			<address>{{ site.address | replace: ', ',',<br>' }}</address>
-		</p>
-
-		<h4>Email</h4>
-		<p><a href="mailto:support@cloudcannon.com">support@cloudcannon.com</a></p>
+			<input type="submit" value="Send Message">
+		</form>
 	</div>
 </div>

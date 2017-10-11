@@ -1,5 +1,5 @@
 ---
-image_path: /img/team/ross.jpg
+image_path: /images/team/ross.jpg
 twitter_username: rphillips_nz
 author: ross
 name: Ross Phillips

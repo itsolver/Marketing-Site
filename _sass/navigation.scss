@@ -1,0 +1,181 @@
+.logo {
+	line-height: 0;
+	text-align: left;
+	svg {
+		height: 25px;
+		margin: 7px 0;
+		fill: #fff;
+	}
+
+	span {
+		display: none;
+	}
+}
+
+header section .wrapper {
+	padding-top: $space - $quarter-space;
+}
+
+header.landing, header.short {
+	background: $brand-color linear-gradient(45deg, rgba(0,0,0,0), $light-brand-color);
+	text-align: center;
+	&, a {
+		color: #fff;
+	}
+}
+
+header.plain  {
+	background: #fff;
+
+	.nav-bar.wrapper {
+
+		svg {
+			fill: $brand-color;
+		}
+
+		a, a.button {
+			color: #000;
+		}
+
+		#open-nav {
+			path {
+				fill: $text-colour;
+			}
+		}
+	}
+}
+
+
+
+.nav-bar.wrapper {
+	padding-top: $quarter-space;
+	padding-bottom: $quarter-space;
+	font-size: $font-small;
+
+	.logo a {
+		display: inline-block;
+	}
+
+	a {
+		text-decoration: none;
+		white-space: nowrap;
+		display: block;
+	}
+
+	.main, .right {
+		display: none;
+		text-align: left;
+
+		a {
+			padding: $quarter-space 0;
+		}
+	}
+
+	.main {
+		flex: 1;
+		text-align: left;
+		margin-top: $quarter-space;
+
+		a {
+			transition: opacity $t-time ease;
+			opacity: $text-opacity;
+
+			&.active, &:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+#open-nav {
+	text-align: right;
+	display: block;
+	float: right;
+}
+
+.nav-open .nav-bar.wrapper .main, .nav-open .nav-bar.wrapper .right {
+	display: block;
+}
+
+@media only screen and (max-width: $menu-break - 1) {
+	.nav-bar.wrapper .right .button {
+		background: none;
+		text-align: left;
+		text-transform: none;
+		font-weight: normal;
+		border: 0;
+
+		&.dark:hover {
+			color: #fff;
+		}
+
+		&.light:hover {
+			color: $brand-color;
+		}
+	}
+}
+
+@media only screen and (min-width: $menu-break) {
+	#open-nav {
+		display: none;
+	}
+
+	.nav-bar.wrapper {
+		display: flex;
+
+		& > .logo, & > .main, & > .right {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+
+		.main {
+			margin-top: 0;
+			flex: 1;
+			text-align: center;
+		}
+
+		.main, .right {
+			display: flex;
+			a {
+				display: inline;
+				text-align: center;
+				padding: 5px $quarter-space;
+				&.button {
+					padding-top: 1em;
+					padding-bottom: 1em;
+				}
+			}
+		}
+
+		.right {
+			text-transform: uppercase;
+			letter-spacing: $upper-case-letter-spacing;
+			font-size: $font-smaller;
+			font-weight: bold;
+
+			a {
+
+				opacity: 1;
+			}
+		}
+	}
+
+	header.landing, header.short {
+		.nav-bar.wrapper .right a {
+			opacity: 1;
+			.button {
+				border-color: rgba(255, 255, 255, $text-opacity);
+			}
+		}
+	}
+
+	header.plain .nav-bar.wrapper .right a {
+		color: $brand-color;
+
+		&.button:hover {
+			color: #fff;
+		}
+	}
+}

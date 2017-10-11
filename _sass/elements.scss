@@ -1,3 +1,23 @@
-body, html {
-	background: $dark-bg;
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: $brand-color;
+	text-decoration: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: #EFEFEF 1px solid;
+	margin: 3.2em 0;
+	padding: 0;
 }

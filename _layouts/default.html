@@ -5,28 +5,22 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
-
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css">
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic,300,700,700italic|Open+Sans:400italic,600italic,700italic,700,600,400|Inconsolata:400,700|Material+Icons">
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		{% if layout.icons or page.icons %}
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		{% endif %}
+		{% seo %}
 	</head>
 
 	<body>
-		<header>
-			<div class="wrapper">
-				<section class="top-bar">
-					<div class="logo">
-						<a href="/">
-							{% include svgs/logo.html %}
-							<span>CloudCannon</span>
-						</a>
-					</div>
-					{% include navigation/main.html %}
-					{% include navigation/right.html %}
-				</section>
-			</div>
-		</header>
 		{{ content }}
 		{% include navigation/footer.html %}
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function (event) {
+				event.preventDefault();
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
 	</body>
 </html>

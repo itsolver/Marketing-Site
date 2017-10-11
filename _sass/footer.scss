@@ -1,91 +1,130 @@
 footer {
-	background: $dark-bg;
-	color: #fff;
-	position: relative;
-	padding: 10px 0 0 0;
-	font-size: 0.9em;
 
-	.wrapper {
+	& > .wrapper {
+		padding-bottom: $half-space;
+	}
+
+	.footer-links {
 		display: flex;
 		flex-wrap: wrap;
+		$footer-links-spacing: 20px;
+		margin-left: -10px;
+		margin-right: -10px;
+		& > div, li {
+			padding: 0 $footer-links-spacing;
+		}
+
+		& > .about, & > ul, & > .contact {
+			box-sizing: border-box;
+			margin: 20px 0;
+		}
+
+		& > ul, & > .contact, .filler {
+			flex: 1 1 200px;
+		}
+	}
+
+	.logo {
+		margin-bottom: 1.2em;
+		a {
+			line-height: 0;
+		}
+	}
+
+	p, ul {
+		font-size: 1rem;
 	}
 
 	p {
+		line-height: 2em;
 		margin: 0;
 	}
 
-	&,
-	a {
-		color: #999;
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		flex: 1;
 	}
 
-	h2 {
-		font-size: 1.4em;
-		margin: 30px 0;
-		color: #ccc;
+	h4 {
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: $upper-case-letter-spacing;
+		color: #000;
+		font-size: .75rem;
 	}
 
-	a {
+	h4, a {
+		line-height: 3em;
+	}
+
+	&, a {
+		color: $footer-color;
 		text-decoration: none;
-
-		&:hover {
-			color: #fff;
-		}
+		transition: color $t-time ease;
 	}
 
-	.legal-line {
-		width: 100%;
-		padding: 30px 0;
-		margin: 0;
-		background-color: #222527;
-
-		.wrapper {
-			display: block;
-		}
-
-		a {
-			font-weight: 600;
-		}
+	a:hover {
+		color: #000;
 	}
 }
 
-.footer-links {
-	-webkit-flex: 1 0 180px;
-	flex: 1 0 180px;
-	margin: 10px;
-	padding: 0;
+.about {
+	flex: 1 1 200px;
+	svg {
+		fill: $brand-color;
+	}
+}
+
+.legal-line {
+	border-top: 1px solid $light-grey;
+	.wrapper {
+		padding-top: $quarter-space;
+		padding-bottom: $quarter-space;
+	}
+}
+
+.social {
 
 	li {
-		list-style: none;
-		margin: 15px 0;
+		flex: 1;
+	}
 
-		a {
-			svg {
-				fill: #999;
-				margin-right: 10px;
-				transition: fill 0.2s ease;
-				vertical-align: middle;
-				position: relative;
-				top: -2px;
-				width: 22px;
-				height: 22px;
-			}
+	.facebook {
+		fill: #4A66B7;
+	}
 
-			&:hover svg {
-				fill: #fff;
-			}
+	.twitter {
+		fill: #1B95E0;
+	}
 
-			&.twitter-icon:hover svg {
-				fill: #55acee;
-			}
+	.youtube {
+		fill: #cc181e;
+	}
 
-			&.google-plus-icon:hover svg {
-				fill: #db4437;
-			}
+	.google-plus {
+		fill: #DB4437;
+	}
 
-			&.youtube-icon:hover svg {
-				fill: #cd201f;
-			}
-		}
+	a {
+		display: inline-block;
+		padding: 0 5px;
+	}
+
+	svg {
+		opacity: .8;
+		transition: $t-time opacity ease;
+	}
+
+	a:hover svg {
+		opacity: 1;
+	}
+}
+
+@media only screen and (min-width: $menu-break) {
+	.about {
+		flex: 8 0 200px;
 	}
 }
