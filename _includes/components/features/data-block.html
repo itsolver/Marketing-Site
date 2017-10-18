@@ -2,7 +2,7 @@
 	<h3><i class="material-icons">{{ include.icon }}</i><span>{{ include.title }}</span></h3>
 	{{ include.content | markdownify }}
 
-	{% if include.demo_link %}
-		<p><a class="button light smaller-text no-border no-side-padding no-hover" href="{{ include.demo_link}}">View Demo &rsaquo;</a></p>
+	{% if include.video %}
+		<p><a class="button light smaller-text no-border no-side-padding no-hover video-link" data-video="{{ include.video }}" href="https://youtu.be/{{ include.video}}">View Demo &rsaquo;</a></p>
 	{% endif %}
 </li>

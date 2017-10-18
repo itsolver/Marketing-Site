@@ -24,7 +24,7 @@ $landing-video-height: 612px;
 
 .landing-video {
 	border: 10px solid #fff;
-	border-radius: 20px;
+	border-radius: $border-raidus;
 	line-height: 0;
 	overflow: hidden;
 	position: relative;

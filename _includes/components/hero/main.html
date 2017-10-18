@@ -6,9 +6,7 @@
 			<a class="button light shadow no-border dark-hover" href="https://app.cloudcannon.com/users/sign_up/">{{ include.button }}</a>
 		</div>
 		<div class="landing-video">
-			<a href="#">
-				<img src="{{ include.splash_image }}">
-			</a>
+			{% include video.html video = include.video %}
 		</div>
 	</div>
 </section>
