@@ -21,5 +21,6 @@ window.onkeyup = function (event) {
 	var $overlay = document.getElementById('overlay');
 	if (event.keyCode == 27 && $overlay) {
 		$overlay.remove();
+		document.body.classList.remove("no-scroll");
 	}
 };
