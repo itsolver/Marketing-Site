@@ -21,34 +21,36 @@ $landing-video-height: 612px;
 	}
 }
 
-
 .landing-video {
 	border: 10px solid #fff;
-	border-radius: $border-raidus;
+	border-radius: $border-radius;
 	line-height: 0;
 	overflow: hidden;
 	position: relative;
 	margin-bottom: -250px;
 	box-shadow: 0px 12px 34px 5px rgba(0,0,0,0.15);
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
 
 	iframe {
-		border-radius: $border-raidus;
+		border-radius: $border-radius;
 		overflow: hidden;
 	}
 
-	a:after {
+	a::after {
 		content: '\25BA';
 		position: absolute;
 		top: 50%;
 		border-radius: 300px;
 		border: 1px solid #fff;
-		background: rgba(0,0,0,.4);
-		transition: background .2s ease;
+		background: rgba(0, 0, 0, 0.4);
+		transition: background-color $transition-duration ease;
 		$play-circle: 130px;
 		height: $play-circle;
 		width: $play-circle;
 		line-height: $play-circle;
-		transform: translate(-50%,-50%);
+		transform: translate(-50%, -50%);
 		font-size: 3em;
 		letter-spacing: -10px;
 	}
@@ -59,7 +61,8 @@ $landing-video-height: 612px;
 }
 
 .landing-page-content {
-	padding: $space * 2 0 $space 0;
+	padding: ($space * 2) 0 $space 0;
+	overflow-x: hidden;
 }
 
 .landing-wrap {
@@ -72,16 +75,15 @@ $landing-video-height: 612px;
 		margin-top: 0;
 	}
 
+	.landing-text {
+		max-width: 480px;
+	}
+
 	.landing-content {
-		display: block;
+		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin: 0 -10px;
-
-		& > div {
-			padding: 0 10px;
-			box-sizing: border-box;
-		}
+		flex-flow: column;
 
 		.landing-text {
 			flex: 1;
@@ -89,61 +91,65 @@ $landing-video-height: 612px;
 
 		.landing-image {
 			flex: 1;
-			text-align: left;
 		}
 	}
 
-	&:nth-child(even) {
-		.landing-text {
-			order: 2;
-		}
+	@media only screen and (min-width: $menu-break) {
+		&:nth-child(even) {
+			.landing-text {
+				order: 2;
+			}
 
-		.landing-image {
-			margin-right: 0;
-			text-align: right;
+			.landing-image {
+				margin-right: 0;
+				text-align: right;
+			}
 		}
 	}
 }
 
-// Workflow diagram
-
 .workflow {
 	text-align: left;
-	transform: perspective(50em) rotateZ(9deg) rotateX(11deg) rotateY(-20deg);
+	transform: perspective(1000px) rotateZ(7deg) rotateX(6deg) rotateY(-28deg);
+	max-width: 540px;
+	margin: 20px 0 -60px -30px;
+
+	@media only screen and (min-width: $menu-break) {
+		margin: 0 0 0 16%;
+	}
+
 	h5 {
-		color: $grey-text;
+		color: rgba(0, 0, 0, 0.2);
 		padding: 0 0 0 25px;
 		position: relative;
 		margin: 0;
-		&:before {
-			width: 7px;
-			height: 7px;
-			border-radius: 20px;
-			background: $light-grey;
+
+		&::before {
 			content: '';
-			display: block;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, 0.2);
 			position: absolute;
 			top: 50%;
-			left: 0px;
+			left: 1px;
 			transform: translate(-50%, -50%);
 		}
 	}
-
-
 
 	ul {
 		list-style: none;
 		margin: 5px 0;
 		padding: 2px 0 2px 20px;
-		border-left: 1px solid $light-grey;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
 
 		li {
 			display: flex;
 			align-items: center;
 			padding: 10px;
 			margin: 12px 0;
-			box-shadow: 0px 2px 5px rgba(0,0,0,.05);
-			border-radius: $border-raidus;
+			box-shadow: 5px 5px 15px 1px hsla(221, 27%, 36%, 0.06), 1px 1px 1px 1px rgba(0,0,0,0.02); // TODO refactor
+			border-radius: $border-radius;
 		}
 
 		.image {
@@ -156,14 +162,23 @@ $landing-video-height: 612px;
 			align-items: center;
 			color: darken($light-grey, 10%);
 
-			&.editor:before {
-				content: "\2022";
-				font-size: 8em;
+			&.editor::before {
+				content: "";
+				position: absolute;
+				top: 7px;
+				bottom: 7px;
+				left: 7px;
+				right: 7px;
+				background-color: rgba(0, 0, 0, 0.2);
+				border-radius: 50%;
 			}
 
-			&.developer:before {
-				content: "\003c \003e";
-				font-size: 1.6em;
+			&.developer::before {
+				content: "<>";
+				font-size: 30px;
+				font-weight: 900;
+				letter-spacing: 5px;
+				margin-left: 6px;
 			}
 
 			svg {
@@ -176,7 +191,7 @@ $landing-video-height: 612px;
 				fill: #fff;
 				padding: 5px 2px;
 				box-sizing: border-box;
-				border-top-left-radius: $border-raidus;
+				border-top-left-radius: $border-radius;
 			}
 		}
 
@@ -197,32 +212,40 @@ $landing-video-height: 612px;
 	}
 }
 
-// Easy editing
-
 .easy-editing {
-	width: 70%;
-	margin-left: 30%;
-	transform: perspective(600px) rotateZ(-12deg) rotateX(11deg) rotateY(29deg);
+	max-width: 445px;
+	transform: perspective(650px) rotateZ(-10deg) rotateX(5deg) rotateY(30deg);
 	line-height: 0;
+	margin: 50px 0 0 20%;
 
-	img, span {
-		display: inline-block;
+	@media only screen and (min-width: $menu-break) {
+		margin: 0 0 0 18%;
 	}
 
-	span {
-		background: #000;
+	img,
+	&::before
+	&::after {
+		display: inline-block;
+		border-radius: $border-radius;
+	}
+
+	$xOffset: 7%;
+	$yOffset: 12%;
+
+	&::before,
+	&::after {
+		content: "";
+		background-color: rgba(0, 0, 0, 0.065);
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		opacity: .05;
-		transform: translateX(-13%) translateY(25%);
-		border-radius: $border-raidus;
+		transform: translateX(-$xOffset * 2) translateY(-$yOffset);
 	}
 
-	span + span {
-		transform: translateX(-20%) translateY(-7%);
+	&::after {
+		transform: translateX(-$xOffset) translateY($yOffset);
 	}
 
 	img {
@@ -231,29 +254,37 @@ $landing-video-height: 612px;
 	}
 }
 
-// Tools love
-
 .tools-love {
-	width: 70%;
-	margin-left: 10%;
-	transform: perspective(600px) rotateZ(60deg) rotateX(44deg) rotateY(-41deg);
+	max-width: 445px;
+	transform: perspective(1200px) rotateZ(60deg) rotateX(40deg) rotateY(-52deg);
 	line-height: 0;
+	margin: 0 6%;
 
-	img, span {
-		display: inline-block;
+	@media only screen and (min-width: $menu-break) {
+		margin-left: 20%;
+		position: relative;
+		left: 2%;
 	}
 
-	$perspective: perspective(600px);
-	$transZ: translateZ(-148px);
+	img {
+		z-index: 9;
+		position: relative;
+	}
+
+	img,
+	span {
+		border-radius: $border-radius;
+	}
+
+	$xOffset: 14%;
+	$yOffset: 24%;
 
 	span {
-		background: #000;
+		background-color: rgba(0, 0, 0, 0.065);
 		position: absolute;
 		top: 0;
 		left: 0;
-		opacity: .05;
-		transform: $perspective translateX(16%) translateY(42%) $transZ;
-		border-radius: $border-raidus;
+		transform: translateX($xOffset) translateY($yOffset) scale(0.9);
 	}
 
 	span.full {
@@ -261,91 +292,95 @@ $landing-video-height: 612px;
 		bottom: 0;
 	}
 
-	span:nth-child(3){
-		transform: $perspective translateX(498%) translateY(816%) $transZ;
-		width: 17%;
-		height: 17.5%;
-		opacity: .8;
-		background: #777;
+	span:nth-child(3) {
+		transform: translateX(538%) translateY(796%);
+		width: 14%;
+		height: 14%;
+		background-color: rgba(120, 120, 120, 0.5);
 	}
 
-	span:nth-child(4){
-		transform: $perspective translateX(34%) translateY(65%) $transZ;
+	span:nth-child(4) {
+		transform: translateX($xOffset * 2) translateY($yOffset * 2) scale(0.8);
 	}
 
-	span:nth-child(5){
-		transform: $perspective translateX(-65%) translateY(189%) $transZ;
+	span:nth-child(5) {
+		transform: translateX(-40%) translateY(189%);
 		z-index: 10;
-		width: 43%;
-		height: 36%;
-		opacity: .2;
-		background: #777;
+		width: 25%;
+		height: 25%;
+		background-color: rgba(120, 120, 120, 0.5);
 	}
 
-	span:nth-child(6){
-		transform: $perspective translateX(-221%) translateY(143%) $transZ;
-		z-index: 10;
-		width: 70px;
-		height: 50px;
-		opacity: .6;
-		background: #92d5f0;
+	span:nth-child(6) {
+		transform: translateX(-210%) translateY(290%);
+		width: 10%;
+		height: 10%;
+		background-color: rgba($brand-color, 0.5);
 	}
 
-	span:nth-child(7){
-		transform: $perspective translateX(256%) translateY(621%) $transZ;
-		width: 22%;
-		height: 26%;
-		opacity: .6;
-		background: #92d5f0;
-	}
-
-	span:nth-child(8){
-		transform: $perspective translateX(515%) translateY(-242%) $transZ;
-		width: 19%;
+	span:nth-child(7) {
+		transform: translateX(250%) translateY(640%);
+		width: 20%;
 		height: 20%;
-		opacity: .6;
-		background: #92d5f0;
+		background-color: rgba($brand-color, 0.5);
 	}
 
-
-
-	img {
-		z-index: 9;
-		position: relative;
+	span:nth-child(8) {
+		transform: translateX(1070%) translateY(-350%);
+		width: 6%;
+		height: 8%;
+		background-color: rgba($brand-color, 0.5);
 	}
 }
 
 .landing-preview {
-	.phone {
-		width: 10%;
-		position: absolute;
-		top: 32%;
-		left: 3%;
+	margin: 20px 0 -60px 0;
 
-		img {
-			position: absolute;
-			top: 11%;
+	@media only screen and (min-width: $menu-break) {
+		margin: 0 10% 0 0;
+
+		.laptop > img {
+			left: 14.5%;
+		}
+	}
+
+	img {
+		position: absolute;
+	}
+
+	svg {
+		width: 100%;
+		height: auto;
+	}
+
+	.phone {
+		position: absolute;
+		bottom: -5%;
+		left: 5%;
+		width: 17%;
+
+		> img {
+			top: 12%;
 			left: 8%;
 			height: 72%;
-			width: 83%;
+			max-width: none;
 		}
+
 	}
 
 	.laptop {
 		position: relative;
 
-		img {
-			position: absolute;
-			top: 4.6%;
-			left: 12.5%;
+		> img {
+			top: 5%;
+			left: 13%;
 			height: 81%;
-			width: 75%;
 		}
 	}
 }
 
 @media only screen and (min-width: $menu-break) {
 	.landing-wrap .landing-content {
-		display: flex;
+		flex-flow: row;
 	}
 }

@@ -1,38 +1,6 @@
 .period {
 	margin: -162px 0 80px 0;
 	text-align: center;
-	span {
-		display: inline-block;
-		margin: 0 auto;
-		background: #fff;
-		box-shadow: 0px -2px 29px 5px rgba(0, 0, 0, 0.08);
-		border-radius: $border-raidus;
-		a {
-			text-decoration: none;
-			color: $text-colour;
-			padding: 15px 30px;
-			display: inline-block;
-			text-transform: uppercase;
-			letter-spacing: $upper-case-letter-spacing;
-			font-size: $font-smaller;
-			transition: $t_time background ease;
-
-			&:first-child {
-				border-top-left-radius: $border-raidus;
-				border-bottom-left-radius: $border-raidus;
-			}
-
-			&:last-child {
-				border-top-right-radius: $border-raidus;
-				border-bottom-right-radius: $border-raidus;
-			}
-
-			&.selected {
-				background: $cta-bg;
-				color: #fff;
-			}
-		}
-	}
 }
 
 .plans {
@@ -41,6 +9,7 @@
 	padding: 0;
 	list-style: none;
 	margin: 0 -10px 50px -10px;
+
 	li.card {
 		flex: 1 1 220px;
 		padding: 0;
@@ -53,7 +22,7 @@
 			padding: $quarter-space 0;
 			color: $grey-text;
 			text-transform: uppercase;
-			letter-spacing: $upper-case-letter-spacing;
+			letter-spacing: $uppercase-letter-spacing;
 		}
 
 		.sub {
@@ -83,6 +52,7 @@
 			top: 2px;
 			margin-right: 6px;
 		}
+
 		$plan-space: 15px;
 		.plan-content {
 			padding: $plan-space;
@@ -138,7 +108,7 @@
 			background: #fff;
 			box-sizing: border-box;
 			margin: 15px;
-			border-radius: $border-raidus;
+			border-radius: $border-radius;
 			padding: 20px;
 		}
 

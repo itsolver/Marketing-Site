@@ -77,7 +77,7 @@ header.plain  {
 		margin-top: $quarter-space;
 
 		a {
-			transition: opacity $t-time ease;
+			transition: opacity $transition-duration ease;
 			opacity: $text-opacity;
 
 			&.active, &:hover {
@@ -151,7 +151,7 @@ header.plain  {
 
 		.right {
 			text-transform: uppercase;
-			letter-spacing: $upper-case-letter-spacing;
+			letter-spacing: $uppercase-letter-spacing;
 			font-size: $font-smaller;
 			font-weight: bold;
 

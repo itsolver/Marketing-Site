@@ -1,3 +1,7 @@
+html {
+	font-size: 16px;
+}
+
 h1 {
 	font-size: 2.7rem;
 	margin: 0;
@@ -9,7 +13,7 @@ h2 {
 
 h3 {
 	font-size: 2rem;
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 }
 
 h4 {
@@ -17,12 +21,14 @@ h4 {
 	margin: 1.2em 0;
 }
 
-p, ul {
-	font-size: 1.15rem;
+p,
+ul {
+	font-size: $font-size-content;
 	line-height: 1.8em;
 }
 
-body, input {
+body,
+input {
 	font-family: 'Open Sans', sans-serif;
 	color: $text-colour;
 	-webkit-font-smoothing: antialiased;

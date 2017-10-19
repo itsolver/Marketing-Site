@@ -1,40 +1,38 @@
-::-webkit-input-placeholder { /* Chrome */
+::-webkit-input-placeholder, // Chrome
+:-ms-input-placeholder { // IE 10+
 	color: $placeholder-colour;
 }
-:-ms-input-placeholder { /* IE 10+ */
-	color: $placeholder-colour;
-}
-::-moz-placeholder { /* Firefox 19+ */
-	color: $placeholder-colour;
-	opacity: 1;
-}
-:-moz-placeholder { /* Firefox 4 - 18 */
+
+::-moz-placeholder, // Firefox 19+
+:-moz-placeholder { // Firefox 4 - 18
 	color: $placeholder-colour;
 	opacity: 1;
 }
 
-a.button, input[type="submit"] {
+a.button,
+input[type="submit"] {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
-	padding: 1.2em $half-space;
+	padding: 18px $half-space;
 	display: inline-block;
-	border-radius: $border-raidus;
+	border-radius: $border-radius;
 	background: $brand-color;
 	color: #fff;
 	border: 0;
-	transition: $t_time background ease;
-	letter-spacing: $upper-case-letter-spacing;
+	transition: $transition-duration background-color ease, $transition-duration color ease;
+	letter-spacing: $uppercase-letter-spacing;
 	font-size: $font-smaller;
 	cursor: pointer;
 
-	&:hover, &.light.dark-hover:hover {
-		background: $cta-bg;
+	&:hover,
+	&.light.dark-hover:hover {
+		background-color: $cta-background-color;
 	}
 
 	&.keep-text-size {
-		font-size: 1em;
+		font-size: inherit;
 	}
 
 	&.smaller-text {
@@ -51,7 +49,9 @@ a.button, input[type="submit"] {
 	}
 
 	&.no-hover {
-		&, &.light, &.dark {
+		&,
+		&.light,
+		&.dark {
 			&:hover {
 				background: none;
 			}
@@ -63,8 +63,10 @@ a.button, input[type="submit"] {
 	}
 
 	&.no-border {
-		&, &.light, &.light:hover {
-			border-color: rgba(0,0,0,0);
+		&,
+		&.light,
+		&.light:hover {
+			border-color: rgba(0, 0, 0, 0);
 		}
 	}
 
@@ -87,7 +89,7 @@ a.button, input[type="submit"] {
 	}
 
 	&.dark-blue {
-		background: $cta-bg;
+		background-color: $cta-background-color;
 
 		&:hover {
 			background: $brand-color;
@@ -98,6 +100,7 @@ a.button, input[type="submit"] {
 		background: #fff;
 		color: $brand-color;
 		border: 1px solid $brand-color;
+
 		&.shadow {
 			box-shadow: 0 12px 34px 5px rgba(0,0,0,0.15);
 		}
@@ -109,29 +112,62 @@ a.button, input[type="submit"] {
 	}
 }
 
-input[type="text"], input[type="email"], input[type="password"], textarea {
-	padding: 20px;
+.toggle-buttons {
+	display: inline-block;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0px -2px 29px 5px rgba(0, 0, 0, 0.08);
+	border-radius: $border-radius;
+
+	.button {
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 0;
+
+		&:first-child {
+			border-top-left-radius: $border-radius;
+			border-bottom-left-radius: $border-radius;
+		}
+
+		&:last-child {
+			border-top-right-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
+		}
+
+		&.selected,
+		&.selected:hover {
+			background-color: $cta-background-color;
+			color: #fff;
+		}
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+	padding: 16px;
 	outline: 0;
-	border-radius: $border-raidus;
+	border-radius: $border-radius;
 	border: 1px solid $grey-bg;
 	font-size: 1rem;
 	box-sizing: border-box;
 }
 
-
 .form-icon {
 	position: relative;
 
 	i.material-icons {
-			color: $form-icon-colour;
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-			left: 25px;
-			font-size: 1.2rem;
+		color: $form-icon-colour;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 25px;
+		font-size: 19px;
 	}
 
-	input[type="text"], input[type="email"] {
+	input[type="text"],
+	input[type="email"] {
 		padding-left: 60px;
 	}
 }

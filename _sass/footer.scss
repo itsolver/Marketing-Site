@@ -43,7 +43,7 @@ footer {
 		padding: 0;
 		margin: 0;
 		text-transform: uppercase;
-		letter-spacing: $upper-case-letter-spacing;
+		letter-spacing: $uppercase-letter-spacing;
 		color: #000;
 		font-size: .75rem;
 	}
@@ -55,7 +55,7 @@ footer {
 	&, a {
 		color: $footer-color;
 		text-decoration: none;
-		transition: color $t-time ease;
+		transition: color $transition-duration ease;
 	}
 
 	a:hover {
@@ -104,7 +104,7 @@ footer {
 
 	svg {
 		opacity: .8;
-		transition: $t-time opacity ease;
+		transition: $transition-duration opacity ease;
 	}
 
 	a:hover svg {

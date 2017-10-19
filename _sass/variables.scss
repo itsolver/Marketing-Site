@@ -4,40 +4,40 @@ $light-brand-color: #429cfc;
 $footer-color: #949baa;
 $light-grey: #efefef;
 $grey-bg: #f6f7fc;
-$cta-bg: #364261;
+$cta-background-color: #364261;
 $testimonial-bg: #f8faff;
 $grey-text: #676c76;
 $text-colour: #222;
 $form-icon-colour: #828a9b;
 $placeholder-colour: #b4b8c1;
+
 // Sizes
+$large-wrapper-width: 1200px;
 $wrapper-width: 1000px;
 $post-width: 700px;
 $wrapper-pad: 20px;
-$overhang: ($post-width - ($wrapper-pad * 2)) * .05;
+$overhang: ($post-width - ($wrapper-pad * 2)) * 0.05;
 $space: 90px;
 $half-space: $space / 2;
 $quarter-space: $half-space / 2;
 $octa-space: $quarter-space / 2;
 $card-padding: 30px;
 
-// font sizes
-$font-smallest: .7rem;
-$font-smaller: .8rem;
-$font-small: .9rem;
+// Font sizes
+$font-smallest: 0.7rem;
+$font-smaller: 0.8rem;
+$font-small: 0.9rem;
 $font-normal: 1rem;
+$font-size-content: 1.15rem;
 
 // Other
-$t-time: 0.15s;
-$text-opacity: .75;
-$light-text-opacity: .4;
-$border-raidus: 2px;
-$upper-case-letter-spacing: 1px;
+$transition-duration: 0.15s;
+$text-opacity: 0.75;
+$light-text-opacity: 0.4;
+$border-radius: 2px;
+$uppercase-letter-spacing: 1px;
 
-
-
-// breaks
-
+// Breaks
 $menu-break: 930px;
 $small-break: 500px;
 $overhang-break: 940px

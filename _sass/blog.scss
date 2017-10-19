@@ -6,7 +6,8 @@
 		max-width: $post-width;
 		margin: 0 auto;
 		box-shadow: 0px -2px 29px 5px rgba(0, 0, 0, 0.08);
-		input[type="text"] {
+
+		input[type="email"] {
 			flex: 1;
 			border-top-right-radius: 0;
 			border-bottom-right-radius: 0;
@@ -30,8 +31,8 @@
 		padding: 0;
 		max-width: $post-width;
 
-		.feature-image{
-			border-radius: $border-raidus;
+		.feature-image {
+			border-radius: $border-radius;
 			overflow: hidden;
 			border-bottom: 1px solid $grey-bg;
 			line-height: 0;
@@ -47,10 +48,12 @@
 
 		.title {
 			align-items: center;
+
 			h3 {
 				margin: 0;
 				flex: 1;
 				font-size: 1.6rem;
+
 				a {
 					color: $text-colour;
 				}
@@ -100,27 +103,27 @@
 	margin: 0;
 	align-self: flex-start;
 	text-transform: uppercase;
-	letter-spacing: $upper-case-letter-spacing;
+	letter-spacing: $uppercase-letter-spacing;
 }
 
 .post-content {
 	margin: 20px 0;
 
-	img, figure.highlight, iframe {
+	img,
+	figure.highlight,
+	iframe {
 		width: 100%;
 		margin: 40px 0;
 	}
 
 	img {
 		border: 1px solid $grey-bg;
-		border-radius: $border-raidus;
+		border-radius: $border-radius;
 	}
 }
 
-.post {
-	.wrapper {
-		max-width: $post-width;
-	}
+.post .wrapper {
+	max-width: $post-width;
 }
 
 .sharing-bar {
@@ -137,18 +140,15 @@
 		margin: 0 10px;
 
 		a {
-			background: #000;
+			background-color: #000;
 			display: flex;
-			transition: $t-time box-shadow ease;
+			transition: $transition-duration box-shadow ease;
 			line-height: 0;
 			width: 100%;
 			height: 100%;
 			align-items: center;
 			justify-content: center;
-			border-radius: $border-raidus;
-			&.email {
-				background-color: #ff9d09;
-			}
+			border-radius: $border-radius;
 
 			&.facebook {
 				background-color: #3b5998;
@@ -162,35 +162,8 @@
 				background-color: #db4437;
 			}
 
-			&.youtube {
-				background-color: #cd201f;
-			}
-
-			&.instagram {
-				background-color: #f167f5;
-			}
-
-			&.linkedin {
-				background-color: #0077b5;
-				svg {
-					width: 19px;
-				}
-			}
-
-			&.pinterest {
-				background-color: #bd081c;
-			}
-
-			&.hacker-news {
-				background-color: #ff6600;
-			}
-
-			&.designer-news {
-				background-color: #2d72d9;
-			}
-
 			&:hover {
-				box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .3);
+				box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 0.3);
 			}
 		}
 
@@ -221,12 +194,13 @@
 			display: block;
 		}
 	}
-
 }
 
 @media only screen and (min-width: $overhang-break) {
 	.post-content {
-		img, figure.highlight, iframe {
+		img,
+		figure.highlight,
+		iframe {
 			max-width: 100vw;
 			width: 120%;
 			margin-left: -10%;
