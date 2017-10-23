@@ -19,15 +19,3 @@ $break-small: 590px;
 @import "about";
 @import "posts";
 @import "footer";
-
-body::after {
-    // content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url(/ui/index.png) top left;
-    opacity: 0;
-
-}
