@@ -14,7 +14,7 @@ input[type="submit"] {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: bold;
+	font-weight: 700;
 	padding: 18px $half-space;
 	display: inline-block;
 	border-radius: $border-radius;
@@ -149,7 +149,7 @@ textarea {
 	padding: 16px;
 	outline: 0;
 	border-radius: $border-radius;
-	border: 1px solid $grey-bg;
+	border: 1px solid #e7e7e7;
 	font-size: 1rem;
 	box-sizing: border-box;
 }
@@ -162,13 +162,13 @@ textarea {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
-		left: 25px;
+		left: 20px;
 		font-size: 19px;
 	}
 
 	input[type="text"],
 	input[type="email"] {
-		padding-left: 60px;
+		padding-left: 54px;
 	}
 }
 
@@ -179,7 +179,5 @@ fieldset {
 }
 
 textarea {
-	width: 100%;
 	resize: none;
-	height: 8em;
 }

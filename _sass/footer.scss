@@ -1,5 +1,4 @@
 footer {
-
 	& > .wrapper {
 		padding-bottom: $half-space;
 	}
@@ -10,25 +9,59 @@ footer {
 		margin-left: -5px;
 		margin-right: -5px;
 
-		& > .about, & > ul, & > .contact, .filler {
+		.filler,
+		& > ul,
+		& > .about,
+		& > .contact {
 			margin: 20px 10px;
-			flex: 1 1 200px;
+		}
+
+		.filler {
+			height: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			margin-top: 0;
+			margin-bottom: 0;
+			border-color: transparent;
+			border-top-width: 0;
+			border-bottom-width: 0;
+		}
+
+		.filler,
+		& > ul,
+		& > .about,
+		& > .contact {
+			flex: 1 0 210px;
+			overflow: hidden;
+		}
+
+		@media only screen and (min-width: $menu-break) {
+			& > ul {
+				flex: 1 0 140px;
+			}
+
+			& > .contact,
+			& > .about {
+				flex: 2 0 280px;
+			}
 		}
 	}
 
 	.logo {
-		margin-bottom: 1.2em;
+		margin-bottom: 20px;
+
 		a {
 			line-height: 0;
 		}
 	}
 
-	p, ul {
+	p,
+	ul {
 		font-size: 1rem;
 	}
 
 	p {
-		line-height: 2em;
+		line-height: 2;
 		margin: 0;
 	}
 
@@ -48,11 +81,13 @@ footer {
 		font-size: .75rem;
 	}
 
-	h4, a {
+	h4,
+	a {
 		line-height: 3em;
 	}
 
-	&, a {
+	&,
+	a {
 		color: $footer-color;
 		text-decoration: none;
 		transition: color $transition-duration ease;
@@ -69,6 +104,7 @@ footer {
 
 .legal-line {
 	border-top: 1px solid $light-grey;
+
 	.wrapper {
 		padding-top: $quarter-space;
 		padding-bottom: $quarter-space;
@@ -76,7 +112,6 @@ footer {
 }
 
 .social {
-
 	li {
 		flex: 1;
 	}

@@ -13,7 +13,7 @@ permalink: /contact/
 			<p><a href="mailto:support@cloudcannon.com">support@cloudcannon.com</a></p>
 		</div>
 		<form action="/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="cc_emails[]" value="support@cloudcannon.com">
+			<input type="hidden" name="_to" value="support@cloudcannon.com">
 
 			<div class="text-field">
 				<label class="form-icon">
@@ -26,6 +26,7 @@ permalink: /contact/
 					<input type="email" name="email" id="email" placeholder="Email Address" required>
 				</label>
 			</div>
+
 			<textarea name="message" id="message" placeholder="Your Message"></textarea>
 
 			<input type="submit" value="Send Message">

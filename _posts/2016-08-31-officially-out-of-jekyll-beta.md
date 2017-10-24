@@ -8,7 +8,7 @@ post_image_type: image/png
 post_image_width: 1600
 post_image_height: 1000
 author: ross
-extra_google_fonts: "|Material+Icons"
+icons: true
 ---
 
 Today marks a huge milestone for CloudCannon. We've finished the Jekyll beta, making Jekyll and plugins available to all users on every plan. The latest release also includes some requested features and more Jekyll configuration.

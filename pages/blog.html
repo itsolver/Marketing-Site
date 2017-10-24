@@ -24,7 +24,7 @@ sitemap:
 		<li class="blog-post card">
 			{% if post.featured_image %}
 				<div class="feature-image">
-					<img src="{{ post.featured_image }}" alt="{{ post.title}}">
+					<img src="{{ post.featured_image }}" alt="{{ post.title }}">
 				</div>
 			{% endif %}
 			<div class="post-box">
@@ -38,7 +38,7 @@ sitemap:
 					<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
 					<span class="name">{{ author.name }}</span>
 					{% for category in post.categories %}
-						<span class="category">&bull;</span> {{ category}}
+						<span class="category-separator">&bull;</span> <span class="category">{{ category }}</span>
 					{% endfor %}
 
 				</div>
@@ -51,7 +51,7 @@ sitemap:
 					{% endif %}
 				</div>
 
-				<p class="read-more"><a class="button light smaller-text no-border no-padding no-hover" href="{{ post.url }}">Read more &rsaquo;</a></p>
+				<div class="card-actions"><a class="button light smaller-text no-border no-padding no-hover" href="{{ post.url }}">Read more &rsaquo;</a></div>
 			</div>
 		</li>
 	{% endfor %}

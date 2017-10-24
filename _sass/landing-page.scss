@@ -176,7 +176,8 @@ $landing-video-height: 612px;
 			&.developer::before {
 				content: "<>";
 				font-size: 30px;
-				font-weight: 900;
+				font-weight: bold;
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 				letter-spacing: 5px;
 				margin-left: 6px;
 			}

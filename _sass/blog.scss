@@ -32,7 +32,7 @@
 		max-width: $post-width;
 
 		.feature-image {
-			border-radius: $border-radius;
+			border-radius: $border-radius $border-radius 0 0;
 			overflow: hidden;
 			border-bottom: 1px solid $grey-bg;
 			line-height: 0;
@@ -43,11 +43,21 @@
 		}
 
 		.post-box {
-			padding: $card-padding - 5px $card-padding;
+			padding: $mobile-card-padding;
+
+			@media only screen and (min-width: $small-break) {
+				padding: $card-padding - 5px $card-padding;
+			}
 		}
 
 		.title {
 			align-items: center;
+			display: flex;
+			flex-flow: column;
+
+			@media only screen and (min-width: $small-break) {
+				flex-flow: row;
+			}
 
 			h3 {
 				margin: 0;
@@ -63,14 +73,11 @@
 		.post-summary p {
 			font-size: $font-small;
 		}
-
-		.read-more {
-			margin-bottom: 0;
-		}
 	}
 }
 
 .post-details {
+	display: flex;
 	align-items: center;
 	margin: 10px 0;
 	font-size: $font-normal;
@@ -90,9 +97,17 @@
 		margin: 0 0 0 10px;
 	}
 
+	.category-separator {
+		margin: 0 10px;
+	}
+
+	.category-separator,
 	.category {
-		margin:0 10px;
 		display: none;
+
+		@media only screen and (min-width: $small-break) {
+			display: block;
+		}
 	}
 }
 
@@ -100,10 +115,14 @@
 	color: $grey-text;
 	font-size: $font-smaller;
 	line-height: 1em;
-	margin: 0;
+	margin: 20px 0 10px 0;
 	align-self: flex-start;
 	text-transform: uppercase;
 	letter-spacing: $uppercase-letter-spacing;
+
+	@media only screen and (min-width: $small-break) {
+		margin: 0;
+	}
 }
 
 .post-content {
@@ -177,23 +196,6 @@
 
 .view-archived {
 	text-align: center;
-}
-
-@media only screen and (min-width: $small-break) {
-	.subscribe {
-		display: block;
-	}
-
-	.blog-posts .title {
-		display: flex;
-	}
-
-	.post-details {
-		display: flex;
-		.category {
-			display: block;
-		}
-	}
 }
 
 @media only screen and (min-width: $overhang-break) {

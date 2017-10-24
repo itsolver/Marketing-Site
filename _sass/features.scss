@@ -3,19 +3,21 @@
 	text-align: center;
 	list-style: none;
 	padding: 0;
-	margin: -175px 0 0 0;
+	margin: -175px -10px 0 -10px;
 	color: $grey-text;
 	flex-wrap: wrap;
+
 	li {
 		flex: 1 0 200px;
+		margin: 0 10px;
 
 		.material-icons {
 			font-size: 38px;
 			display: inline-block;
-			background: #fff;
+			background-color: #fff;
 			color: $light-brand-color;
 			padding: 20px;
-			border-radius: 50px;
+			border-radius: 50%;
 			box-shadow: 0px -2px 29px 5px rgba(0, 0, 0, 0.08);
 		}
 	}
@@ -25,46 +27,5 @@
 	h2 {
 		text-align: center;
 		margin-top: $space;
-	}
-
-	ul.components {
-		list-style: none;
-		padding: 0;
-		display: flex;
-		flex-wrap:wrap;
-		margin: 0 -10px;
-
-		li {
-			flex: 1 1 315px;
-		}
-
-		h3 {
-			font-size: 1.1rem;
-			display: flex;
-			margin: 0 0 1rem 0;
-			align-items: center;
-
-			.material-icons {
-				flex: 0;
-				display: inline-block;
-				background: $light-brand-color;
-				color: #fff;
-				padding: 8px;
-				border-radius: 50px;
-				margin-right: 10px;
-				font-size: 24px;
-			}
-
-			span {
-				display: inline-block;
-				flex: 1;
-			}
-
-		}
-
-		p {
-			font-size: $font-small;
-			margin: 0;
-		}
 	}
 }

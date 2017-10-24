@@ -46,11 +46,15 @@ iframe.screenshot {
 	box-sizing: border-box;
 	margin: 10px;
 	border-radius: $border-radius;
-	padding: $card-padding;
 	position: relative;
+	padding: $mobile-card-padding;
 
-	&.big {
-		padding: $card-padding + 15px;
+	@media only screen and (min-width: $small-break) {
+		padding: $card-padding;
+
+		&.big {
+			padding: $big-card-padding;
+		}
 	}
 }
 
@@ -92,4 +96,50 @@ iframe.screenshot {
 
 .no-scroll {
 	overflow: hidden;
+}
+
+.cards {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+
+	li {
+		flex: 1 1 315px;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+		display: flex;
+		margin: 0 0 20px 0;
+		align-items: center;
+
+		.material-icons {
+			flex: 0;
+			display: inline-block;
+			background: $light-brand-color;
+			color: #fff;
+			padding: 8px;
+			border-radius: 50px;
+			margin-right: 10px;
+			font-size: 24px;
+		}
+
+		span {
+			display: inline-block;
+			flex: 1;
+		}
+
+	}
+
+	p {
+		font-size: $font-small;
+	}
+}
+
+.card {
+	> p:last-child {
+		margin-bottom: 0;
+	}
 }
