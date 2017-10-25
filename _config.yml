@@ -49,6 +49,7 @@ production:
 # ----------
 # SEO plugin
 
+lang: en_NZ
 logo: /siteicon.png
 twitter:
   username: CloudCannon
