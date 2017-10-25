@@ -13,6 +13,10 @@ $landing-image-color-dark: rgba(120, 120, 120, 0.5);
 	@media only screen and (min-width: $desktop-min) {
 		padding-bottom: 0;
 	}
+
+	.subtitle {
+		max-width: 400px;
+	}
 }
 
 .hero-cta {
@@ -22,7 +26,6 @@ $landing-image-color-dark: rgba(120, 120, 120, 0.5);
 .subtitle {
 	font-size: 1.1rem;
 	line-height: 1.7rem;
-	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
