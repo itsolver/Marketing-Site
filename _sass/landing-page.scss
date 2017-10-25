@@ -192,15 +192,15 @@ $landing-image-color-dark: rgba(120, 120, 120, 0.5);
 
 			svg {
 				position: absolute;
-				bottom: 0;
-				right: 0;
+				bottom: -10%;
+				right: -10%;
 				width: 40%;
 				height: 40%;
 				background: $brand-color;
 				fill: #fff;
 				padding: 5px 2px;
 				box-sizing: border-box;
-				border-top-left-radius: $border-radius;
+				border-radius: 50%;
 			}
 		}
 
