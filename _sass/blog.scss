@@ -157,15 +157,15 @@
 .post-content {
 	margin: 20px 0;
 
-	img,
-	figure.highlight{
+	> iframe,
+	> figure.highlight {
 		width: 100%;
 		@extend .vertical-flow;
 	}
 
 	img {
-		border: 1px solid $cards-background-color;
 		border-radius: $border-radius;
+		display: block;
 	}
 
 	h2,

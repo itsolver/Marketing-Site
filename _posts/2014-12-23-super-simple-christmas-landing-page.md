@@ -314,9 +314,9 @@ This shows just how much you can achieve with CSS; 3D transformations, animation
 This landing page was a great afternoon project, plugging together a whole lot of different tutorials into a really useful resource. If you like it feel free to contribute to the [GitHub Repository](https://github.com/CloudCannon/Best-Christmas-Landing-Page). I'd love to add some other branches with different holidays. If you have any questions or want to spread some cheer be sure to comment below. Merry Christmas.
 
 <script type="text/javascript">
-window.onload = function(){
-	$(".cube-wrapper").click(function () {
-		$(this).toggleClass("open");
+window.onload = function () {
+	document.querySelector(".cube-wrapper").addEventListener("click", function (e) {
+		e.target.classList.toggle("open");
 	});
 }
 </script>
@@ -365,7 +365,7 @@ iframe {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	margin: 100px auto 60px auto;
+	margin: 160px auto 20px auto;
 	-webkit-perspective: 500px;
 	-ms-perspective: 500px;
 	perspective: 500px;
