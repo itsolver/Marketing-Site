@@ -2,6 +2,7 @@
 title: 'Pricing Update & Organisation Support'
 category: Announcements
 author: george
+image:
 image_featured: false
 ---
 
