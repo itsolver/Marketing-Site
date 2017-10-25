@@ -44,4 +44,16 @@ static_manifesto:
 
 	<h2>Our team</h2>
 	<p>Founded in Dunedin, New Zealand and now serving customers from all over the world. Our team is passionate about doing our part in making static site generators mainstream.</p>
+
+  <ul class="mugs">
+    {% for person_obj in site.data.authors %}
+      {% assign person = person_obj[1] %}
+      {% if person.position %}
+        <li>
+          <div class="image"><img src="{{ person.image }}" alt="{{ person.name }}"></div>
+          <h3>{{ person.name }}</h3>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
