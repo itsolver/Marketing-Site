@@ -1,12 +1,9 @@
 ---
 title: Editor Links
-header: Editor Links
 category: Features
-post_image: /images/blog/editor-links/blog-posts@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 1000
 author: ross
+image: /images/blog/editor-links/blog-posts@2x.png
+image_featured: false
 ---
 
 Editor Links are a new CloudCannon feature to add in-app navigation around the editing interface.

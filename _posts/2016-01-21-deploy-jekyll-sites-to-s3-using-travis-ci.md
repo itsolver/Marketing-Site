@@ -1,12 +1,9 @@
 ---
 title: Deploy Jekyll sites to S3 using Travis CI
-header: Deploy Jekyll sites to S3 using Travis CI
 category: Tutorial
-post_image: /images/blog/travis-ci/travis-ci.png
-post_image_type: image/png
-post_image_width: 900
-post_image_height: 563
 author: mike
+image: /images/blog/travis-ci/travis-ci.png
+image_featured: true
 ---
 
 CloudCannon consolidates editing and reliable hosting into a single package. Alternatively, you can use external hosting solutions and keep editing in CloudCannon. To demonstrate this workflow, we will use [Amazon S3](http://aws.amazon.com/s3/), a great platform to host static and Jekyll websites. The uptime is [99.9% guaranteed](http://aws.amazon.com/s3/sla/), it scales indefinitely and it's cheap.

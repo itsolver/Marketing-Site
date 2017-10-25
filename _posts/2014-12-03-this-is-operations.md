@@ -1,8 +1,9 @@
 ---
 title: The ops team
-header: Hi I'm Tim and I am the operations team.
 category: Operations
 author: tim
+image:
+image_featured: false
 permalink: /operations/2014/12/03/this-is-operations.html
 ---
 

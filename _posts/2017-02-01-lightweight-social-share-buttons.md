@@ -1,12 +1,9 @@
 ---
 title: Lightweight Social Share Buttons
 category: Tutorials
-featured_image: /images/blog/lightweight-social-share-buttons/buttons@2x.png
-post_image: /images/blog/lightweight-social-share-buttons/buttons@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 540
 author: ross
+image: /images/blog/lightweight-social-share-buttons/buttons@2x.png
+image_featured: true
 ---
 
 Social share buttons are commonplace on a range of websites. Many social networks provide embed code to build them quickly, however these solutions load a number of additional requests and resources. This increases the load time for your pages.
@@ -22,7 +19,7 @@ Social networks also provide a share URL as an alternative to the embedded butto
 
 <a class="share-button google-plus" href="https://plus.google.com/share?url={{ url }}" target="_blank">{% include svgs/social-icon.html icon="google-plus" %} Share on Google+</a>
 
-<a class="share-button pinterest" href="https://pinterest.com/pin/create/button/?url={{ url }}&description={{ page.title | cgi_escape }}&media={{ page.post_image | prepend: site.url | cgi_escape }}" target="_blank">{% include svgs/social-icon.html icon="pinterest" %} Save on Pinterest</a>
+<a class="share-button pinterest" href="https://pinterest.com/pin/create/button/?url={{ url }}&description={{ page.title | cgi_escape }}&media={{ page.image | prepend: site.url | cgi_escape }}" target="_blank">{% include svgs/social-icon.html icon="pinterest" %} Save on Pinterest</a>
 
 <a class="share-button linkedin" href="https://www.linkedin.com/shareArticle?url={{ url }}&title={{ page.title | cgi_escape }}&source=CloudCannon&mini=true" target="_blank">{% include svgs/social-icon.html icon="linkedin" %} Share on LinkedIn</a>
 

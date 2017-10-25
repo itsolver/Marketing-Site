@@ -3,7 +3,7 @@ layout: info-page
 title: About
 permalink: /about/
 icons: true
-static-manifesto:
+static_manifesto:
   - title: Simplicity
     icon: child_care
     content_markdown: Static sites are just HTML, CSS and JavaScript files. This means they're faster to build, require less technical knowledge, need less upkeep and are future proofed.
@@ -28,13 +28,12 @@ static-manifesto:
 	<h1>CloudCannon is a new kind of CMS for the static site generator, Jekyll.</h1>
 
 	<h2>What drives us</h2>
-
 	<p>Our mission is to bring all the advantages of static technology to developers while giving editors intuitive interfaces and workflows to update content. We believe most informational websites should be static. The reason they’re not is non-technical editors need to update content.</p>
 
+	<h2>Why static?</h2>
 	<div class="feature-content">
-		<h2>Why static?</h2>
 		<ul class="cards">
-			{% for item in page.static-manifesto %}
+			{% for item in page.static_manifesto %}
 				<li class="card">
 					<h3><i class="material-icons">{{ item.icon }}</i> {{ item.title }}</h3>
 					{{ item.content_markdown | markdownify }}
@@ -44,6 +43,5 @@ static-manifesto:
 	</div>
 
 	<h2>Our team</h2>
-
 	<p>Founded in Dunedin, New Zealand and now serving customers from all over the world. Our team is passionate about doing our part in making static site generators mainstream.</p>
 </div>

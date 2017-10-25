@@ -1,10 +1,10 @@
 ---
 title: Using CloudCannon with JavaScript
-header: Using CloudCannon with JavaScript
 category: Tutorials
 author: george
+image: /images/blog/slider.png
+image_featured: true
 permalink: /tutorials/2014/04/18/cloud-cannon-and-javascript.html
-featured_image: /images/blog/slider.png
 ---
 
 A common question that comes up is “How can I use JavaScript with CloudCannon?”. As a heavy JavaScript user, I would ask the same and that’s why we build CloudCannon from the ground up to handle a wide range of sites.

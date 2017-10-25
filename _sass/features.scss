@@ -1,11 +1,15 @@
 .workflow-diagram {
+	@include hero-overhang(39px);
 	display: flex;
 	text-align: center;
 	list-style: none;
 	padding: 0;
-	margin: -175px -10px 0 -10px;
 	color: $grey-text;
 	flex-wrap: wrap;
+
+	p {
+		margin-top: 1em;
+	}
 
 	li {
 		flex: 1 0 200px;
@@ -18,7 +22,7 @@
 			color: $light-brand-color;
 			padding: 20px;
 			border-radius: 50%;
-			box-shadow: 0px -2px 29px 5px rgba(0, 0, 0, 0.08);
+			box-shadow: $medium-box-shadow;
 		}
 	}
 }
@@ -26,6 +30,6 @@
 .feature-content {
 	h2 {
 		text-align: center;
-		margin-top: $space;
+		margin-top: $section-padding;
 	}
 }

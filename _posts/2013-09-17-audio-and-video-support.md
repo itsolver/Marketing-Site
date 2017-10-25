@@ -1,8 +1,9 @@
 ---
 title: Audio and Video Support
-header: Audio and Video Support
 category: Features
 author: mike
+image:
+image_featured: false
 permalink: /features/2013/09/17/audio-and-video-support.html
 ---
 

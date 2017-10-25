@@ -35,7 +35,7 @@ footer {
 			overflow: hidden;
 		}
 
-		@media only screen and (min-width: $menu-break) {
+		@media only screen and (min-width: $desktop-min) {
 			& > ul {
 				flex: 1 0 140px;
 			}
@@ -103,7 +103,7 @@ footer {
 }
 
 .legal-line {
-	border-top: 1px solid $light-grey;
+	border-top: 1px solid $plain-border-color;
 
 	.wrapper {
 		padding-top: $quarter-space;
@@ -147,7 +147,7 @@ footer {
 	}
 }
 
-@media only screen and (min-width: $menu-break) {
+@media only screen and (min-width: $desktop-min) {
 	.about {
 		flex: 8 0 200px;
 	}

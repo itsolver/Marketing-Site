@@ -1,8 +1,9 @@
 ---
 title: Drupal vs Jekyll + CloudCannon
-header: Drupal vs Jekyll + CloudCannon
 category: Comparison
 author: mike
+image:
+image_featured: false
 ---
 There's a huge eco-system of plugins and add-ons available for any CMS. In this comparison we'll be using the content management systems straight out of the box to reduce the complexity and time to get the sites live.
 

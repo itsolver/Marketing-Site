@@ -1,8 +1,9 @@
 ---
 title: How Pixelapse image blurring works
-header: Pixelapse blurred Image deconstruction
 category: Deconstructions
 author: george
+image:
+image_featured: false
 permalink: /deconstructions/2014/11/19/pixelapse-blurred-image-deconstruction.html
 ---
 

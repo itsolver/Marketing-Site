@@ -1,8 +1,9 @@
 ---
 title: Extreme CSS Zen Garden
-header: Extreme CSS Zen Garden
 category: Tips
 author: mike
+image:
+image_featured: false
 permalink: /tips/2014/12/18/extreme-css-zen-garden.html
 ---
 

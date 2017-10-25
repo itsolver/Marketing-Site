@@ -1,12 +1,9 @@
 ---
 title: Deploy Jekyll sites anywhere using jekyll-hook
-header: Deploy Jekyll sites anywhere using jekyll-hook
 category: Tutorial
-post_image: /images/blog/jekyll-hook/github.png
-post_image_type: image/png
-post_image_width: 900
-post_image_height: 563
 author: mike
+image: /images/blog/jekyll-hook/github.png
+image_featured: false
 ---
 
 [In the last tutorial](http://cloudcannon.com/tutorial/2016/01/21/deploy-jekyll-sites-to-s3-using-travis-ci/), we used [Travis CI](https://travis-ci.org) to deploy a Jekyll site to Amazon S3. This tutorial covers using [jekyll-hook](https://github.com/developmentseed/jekyll-hook) to automatically deploy changes from GitHub/CloudCannon to your own server.

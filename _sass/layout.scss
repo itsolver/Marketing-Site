@@ -1,10 +1,22 @@
 .wrapper {
-	margin: 0 auto;
-	padding: $space $wrapper-pad;
-	max-width: $wrapper-width;
-	width: 100%;
 	position: relative;
 	box-sizing: border-box;
+	width: 100%;
+	max-width: $wrapper-width;
+	margin: 0 auto;
+	padding: $section-padding-mobile $wrapper-horizontal-padding;
+
+	@media only screen and (min-width: $tablet-min) {
+		padding: $section-padding-tablet $wrapper-horizontal-padding;
+
+		header section & {
+			padding-top: 65px;
+		}
+	}
+
+	@media only screen and (min-width: $desktop-min) {
+		padding: $section-padding $wrapper-horizontal-padding;
+	}
 
 	&.wrapper-large {
 		max-width: $large-wrapper-width;
@@ -17,45 +29,25 @@
 }
 
 .dark-content {
-	background: $grey-bg;
-	padding: $half-space 0 0 0;
+	background: $cards-background-color;
 }
 
 .screenshot {
 	max-width: 100%;
 	height: auto;
 	display: block;
-	box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
+	box-shadow: 0 2px 0 0 #DDD;
 	border-radius: $border-radius;
 	margin-left: auto;
 	margin-right: auto;
 	background: #DDD url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2244%22%20height=%2212%22%20viewBox=%220%200%2044%2012%22%3E%3Ccircle%20cx=%226%22%20cy=%226%22%20r=%224%22%20fill=%22#FC625D%22/%3E%3Ccircle%20cx=%2222%22%20cy=%226%22%20r=%224%22%20fill=%22#FDBC40%22/%3E%3Ccircle%20cx=%2238%22%20cy=%226%22%20r=%224%22%20fill=%22#35CC4B%22/%3E%3C/svg%3E) 4px 4px no-repeat;
-	padding: 20px 0 62.5% 0;
 	position: relative;
-	margin: 0 auto;
 	padding: 20px 0 0 0;
 }
 
 iframe.screenshot {
 	height: 500px;
 	margin: 0 auto 2em;
-}
-
-.card {
-	background: #fff;
-	box-sizing: border-box;
-	margin: 10px;
-	border-radius: $border-radius;
-	position: relative;
-	padding: $mobile-card-padding;
-
-	@media only screen and (min-width: $small-break) {
-		padding: $card-padding;
-
-		&.big {
-			padding: $big-card-padding;
-		}
-	}
 }
 
 .video-embed {
@@ -65,7 +57,7 @@ iframe.screenshot {
 	height: 0;
 
 	iframe {
-		background: #000;
+		background: white;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -130,7 +122,6 @@ iframe.screenshot {
 			display: inline-block;
 			flex: 1;
 		}
-
 	}
 
 	p {
@@ -139,6 +130,21 @@ iframe.screenshot {
 }
 
 .card {
+	background: #fff;
+	box-sizing: border-box;
+	margin: 10px;
+	border-radius: $border-radius;
+	position: relative;
+	padding: $mobile-card-padding;
+
+	@media only screen and (min-width: $tablet-min) {
+		padding: $card-padding;
+
+		&.big {
+			padding: $big-card-padding;
+		}
+	}
+
 	> p:last-child {
 		margin-bottom: 0;
 	}

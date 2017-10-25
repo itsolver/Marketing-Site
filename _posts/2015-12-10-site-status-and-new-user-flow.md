@@ -1,12 +1,9 @@
 ---
 title: Site Status and New User Flow
-header: Site Status and New User Flow
 category: Features
-post_image: /images/blog/site-status-and-new-user-flow/site-status@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 1000
 author: ross
+image: /images/blog/site-status-and-new-user-flow/site-status@2x.png
+image_featured: false
 ---
 
 Since our last release, we've focused on existing interfaces and adding features in our continuing effort to improve the CloudCannon experience. These improvements are driven by your feedback and support.

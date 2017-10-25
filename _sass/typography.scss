@@ -2,29 +2,79 @@ html {
 	font-size: 16px;
 }
 
-h1 {
-	font-size: 2.7rem;
-	margin: 0;
+h1,
+h2,
+h3,
+h4 {
+	line-height: 1.2;
 }
 
-h2 {
+h1 {
 	font-size: 2.3rem;
 }
 
+h2 {
+	font-size: 1.8rem;
+}
+
 h3 {
-	font-size: 2rem;
-	margin-bottom: 0.5em;
+	font-size: 1.6rem;
 }
 
 h4 {
-	font-size: 1.3rem;
-	margin: 1.2em 0;
+	font-size: 1.4rem;
+}
+
+.big-text {
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+@media only screen and (min-width: $tablet-min) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.9rem;
+	}
+
+	.big-text {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: $desktop-min) {
+	h1 {
+		font-size: 2.7rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	.big-text {
+		font-size: 2.3rem;
+	}
 }
 
 p,
 ul {
 	font-size: $font-size-content;
 	line-height: 1.8em;
+}
+
+p,
+ul,
+ol,
+blockquote,
+figure,
+h1,
+h2,
+h3,
+h4 {
+	@extend .vertical-flow;
 }
 
 body,
@@ -35,4 +85,8 @@ select {
 	color: $text-colour;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
+}
+
+code {
+	word-break: break-word;
 }

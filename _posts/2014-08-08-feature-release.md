@@ -1,10 +1,10 @@
 ---
 title: 8th August Feature Release
-header: 8th August Feature Release
 category: Features
 author: george
+image: /images/blog/2014-08-08-feature-release/new-site-empty-state-header.png
+image_featured: true
 permalink: /features/2014/08/08/feature-release.html
-featured_image: /images/blog/2014-08-08-feature-release/new-site-empty-state-header.png
 ---
 A decent sized feature update went out recently, although most of it is under the hood.
 

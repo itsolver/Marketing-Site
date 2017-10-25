@@ -1,8 +1,9 @@
 ---
-title: How To Create an Animated Pickup in CSS and HTML
-header: Creating a CSS and HTML Animated Pickup
+title: How to create an animated pickup in CSS and HTML
 category: Deconstructions
 author: george
+image:
+image_featured: false
 permalink: /deconstructions/2014/12/19/css-truck-deconstruction.html
 ---
 

@@ -3,12 +3,13 @@
 
 	blockquote {
 		margin: 0;
-		box-shadow: 0 12px 34px 5px rgba(0, 0, 0, 0.05);
+		box-shadow: $large-box-shadow;
 	}
 
 	.author {
 		display: flex;
 		align-items: center;
+		margin-bottom: 1em;
 
 		img {
 			border-radius: 50px;
@@ -16,7 +17,7 @@
 		}
 
 		p {
-			padding: 0 20px;
+			padding: 0 0 0 20px;
 			margin: 0;
 		}
 
@@ -43,7 +44,7 @@
 
 	svg {
 		height: 25px;
-		margin-top: $quarter-space;
+		margin-top: 1em;
 	}
 
 	.view-button {

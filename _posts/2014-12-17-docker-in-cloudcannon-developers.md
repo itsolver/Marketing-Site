@@ -1,8 +1,9 @@
 ---
-title: Docker in CloudCannon - Development
-header: How we use Docker in our development environment.
+title: Docker in CloudCannon
 category: Operations
 author: tim
+image:
+image_featured: false
 permalink: /operations/2014/12/17/docker-in-cloudcannon-developers.html
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: Powerful Templates
-header: Powerful Templates
-category: Features
 author: mike
+category: Features
+image:
+image_featured: false
 permalink: /features/2013/08/21/powerful-templates.html
 ---
 You guys asked for it, and here it is. We're so excited to announce the brand new templating feature in CloudCannon.

@@ -1,16 +1,30 @@
 $landing-video-height: 612px;
+$landing-image-color-light: rgba(0, 0, 0, 0.065);
+$landing-image-color-dark: rgba(120, 120, 120, 0.5);
 
 .hero {
 	text-align: center;
+	padding-bottom: 120px;
+
+	@media only screen and (min-width: $tablet-min) {
+		padding-bottom: 30px;
+	}
+
+	@media only screen and (min-width: $desktop-min) {
+		padding-bottom: 0;
+	}
 }
 
 .hero-cta {
-	padding: 40px 0 $space 0;
+	padding: 40px 0 $section-padding 0;
 }
 
 .subtitle {
 	font-size: 1.1rem;
 	line-height: 1.7rem;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .storage-provider-icons {
@@ -28,50 +42,34 @@ $landing-video-height: 612px;
 	overflow: hidden;
 	position: relative;
 	margin-bottom: -250px;
-	box-shadow: 0px 12px 34px 5px rgba(0,0,0,0.15);
+	box-shadow: $large-box-shadow;
 	max-width: 940px;
 	margin-left: auto;
 	margin-right: auto;
-
-	iframe {
-		border-radius: $border-radius;
-		overflow: hidden;
-	}
-
-	a::after {
-		content: '\25BA';
-		position: absolute;
-		top: 50%;
-		border-radius: 300px;
-		border: 1px solid #fff;
-		background: rgba(0, 0, 0, 0.4);
-		transition: background-color $transition-duration ease;
-		$play-circle: 130px;
-		height: $play-circle;
-		width: $play-circle;
-		line-height: $play-circle;
-		transform: translate(-50%, -50%);
-		font-size: 3em;
-		letter-spacing: -10px;
-	}
-
-	a:hover:after {
-		background: rgba(0,0,0,.8);
-	}
 }
 
 .landing-page-content {
-	padding: ($space * 2) 0 $space 0;
 	overflow-x: hidden;
+	padding: 80px 0 20px 0;
+
+	@media only screen and (min-width: $tablet-min) {
+		padding-top: 170px;
+		padding-bottom: $section-padding-tablet;
+	}
+
+	@media only screen and (min-width: $desktop-min) {
+		padding-top: 200px;
+		padding-bottom: 0;
+	}
 }
 
 .landing-wrap {
 	.wrapper {
-		padding-top: $space;
-		padding-bottom: $space;
+		padding-top: $section-padding;
+		padding-bottom: $section-padding;
 	}
 
-	h3 {
+	h2 {
 		margin-top: 0;
 	}
 
@@ -91,10 +89,16 @@ $landing-video-height: 612px;
 
 		.landing-image {
 			flex: 1;
+
+			.screenshot {
+				background-size: 13%;
+				padding-top: 5.75%;
+				background-position: 2% 2%;
+			}
 		}
 	}
 
-	@media only screen and (min-width: $menu-break) {
+	@media only screen and (min-width: $desktop-min) {
 		&:nth-child(even) {
 			.landing-text {
 				order: 2;
@@ -114,12 +118,12 @@ $landing-video-height: 612px;
 	max-width: 540px;
 	margin: 20px 0 -60px -30px;
 
-	@media only screen and (min-width: $menu-break) {
-		margin: 0 0 0 16%;
+	@media only screen and (min-width: $desktop-min) {
+		margin: 0 0 0 18%;
 	}
 
 	h5 {
-		color: rgba(0, 0, 0, 0.2);
+		color: $landing-image-color-dark;
 		padding: 0 0 0 25px;
 		position: relative;
 		margin: 0;
@@ -129,7 +133,7 @@ $landing-video-height: 612px;
 			width: 10px;
 			height: 10px;
 			border-radius: 50%;
-			background-color: rgba(0, 0, 0, 0.2);
+			background-color: $landing-image-color-dark;
 			position: absolute;
 			top: 50%;
 			left: 1px;
@@ -141,26 +145,27 @@ $landing-video-height: 612px;
 		list-style: none;
 		margin: 5px 0;
 		padding: 2px 0 2px 20px;
-		border-left: 1px solid rgba(0, 0, 0, 0.2);
+		border-left: 1px solid $landing-image-color-dark;
 
 		li {
 			display: flex;
 			align-items: center;
 			padding: 10px;
-			margin: 12px 0;
-			box-shadow: 5px 5px 15px 1px hsla(221, 27%, 36%, 0.06), 1px 1px 1px 1px rgba(0,0,0,0.02); // TODO refactor
+			margin: 10px 0;
+			box-shadow: $medium-offset-box-shadow, $outline-box-shadow;
 			border-radius: $border-radius;
+			max-width: 470px;
 		}
 
 		.image {
 			width: 50px;
 			height: 50px;
-			background: $light-grey;
+			background-color: $landing-image-color-light;
 			position: relative;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: darken($light-grey, 10%);
+			color: $landing-image-color-dark;
 
 			&.editor::before {
 				content: "";
@@ -169,7 +174,7 @@ $landing-video-height: 612px;
 				bottom: 7px;
 				left: 7px;
 				right: 7px;
-				background-color: rgba(0, 0, 0, 0.2);
+				background-color: $landing-image-color-dark;
 				border-radius: 50%;
 			}
 
@@ -219,7 +224,7 @@ $landing-video-height: 612px;
 	line-height: 0;
 	margin: 50px 0 0 20%;
 
-	@media only screen and (min-width: $menu-break) {
+	@media only screen and (min-width: $desktop-min) {
 		margin: 0 0 0 18%;
 	}
 
@@ -236,7 +241,7 @@ $landing-video-height: 612px;
 	&::before,
 	&::after {
 		content: "";
-		background-color: rgba(0, 0, 0, 0.065);
+		background-color: $landing-image-color-light;
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -261,7 +266,7 @@ $landing-video-height: 612px;
 	line-height: 0;
 	margin: 0 6%;
 
-	@media only screen and (min-width: $menu-break) {
+	@media only screen and (min-width: $desktop-min) {
 		margin-left: 20%;
 		position: relative;
 		left: 2%;
@@ -281,7 +286,7 @@ $landing-video-height: 612px;
 	$yOffset: 24%;
 
 	span {
-		background-color: rgba(0, 0, 0, 0.065);
+		background-color: $landing-image-color-light;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -297,7 +302,7 @@ $landing-video-height: 612px;
 		transform: translateX(538%) translateY(796%);
 		width: 14%;
 		height: 14%;
-		background-color: rgba(120, 120, 120, 0.5);
+		background-color: $landing-image-color-dark;
 	}
 
 	span:nth-child(4) {
@@ -309,7 +314,7 @@ $landing-video-height: 612px;
 		z-index: 10;
 		width: 25%;
 		height: 25%;
-		background-color: rgba(120, 120, 120, 0.5);
+		background-color: $landing-image-color-dark;
 	}
 
 	span:nth-child(6) {
@@ -337,7 +342,7 @@ $landing-video-height: 612px;
 .landing-preview {
 	margin: 20px 0 -60px 0;
 
-	@media only screen and (min-width: $menu-break) {
+	@media only screen and (min-width: $desktop-min) {
 		margin: 0 10% 0 0;
 
 		.laptop > img {
@@ -380,7 +385,7 @@ $landing-video-height: 612px;
 	}
 }
 
-@media only screen and (min-width: $menu-break) {
+@media only screen and (min-width: $desktop-min) {
 	.landing-wrap .landing-content {
 		flex-flow: row;
 	}

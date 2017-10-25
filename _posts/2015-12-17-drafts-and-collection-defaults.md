@@ -1,12 +1,9 @@
 ---
 title: Output Drafts and Collection Defaults
-header: Output Drafts and Collection Defaults
 category: Features
-post_image: /images/blog/drafts-and-defaults/defaults-in-browser@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 1000
 author: george
+image: /images/blog/drafts-and-defaults/defaults-in-browser@2x.png
+image_featured: true
 ---
 
 This week we have a smaller release for some highly requested configuration. We added draft post compiling and defaults for creating collection items.

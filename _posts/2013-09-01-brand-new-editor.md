@@ -1,8 +1,9 @@
 ---
 title: Brand New Editor
-header: Brand New Editor
 category: Features
 author: mike
+image:
+image_featured: false
 permalink: /features/2013/09/01/brand-new-editor.html
 ---
 We've completely revamped the editor in CloudCannon to make it even easier for your clients to update their websites on CloudCannon.

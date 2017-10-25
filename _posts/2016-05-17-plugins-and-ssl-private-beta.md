@@ -1,12 +1,10 @@
 ---
 title: Plugins and SSL Private Beta
-header: Plugins and SSL Private Beta
 category: Features
-post_image: /images/blog/plugins/filetypes@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 1000
 author: george
+image: /images/blog/plugins/filetypes@2x.png
+image_featured: true
+image_featured_style: padded
 ---
 
 This week we are excited to announce the beginning of two features: the ability to use Jekyll plugins and SSL support. Both features are in private beta, [contact support](mailto:support@cloudcannon.com) to request early access.

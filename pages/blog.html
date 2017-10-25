@@ -22,9 +22,9 @@ sitemap:
 <ul class="blog-posts">
 	{% for post in site.posts limit: 10 %}
 		<li class="blog-post card">
-			{% if post.featured_image %}
-				<div class="feature-image">
-					<img src="{{ post.featured_image }}" alt="{{ post.title }}">
+			{% if post.image_featured and post.image %}
+				<div class="feature-image {{ post.image_featured_style }}">
+					<img src="{{ post.image }}" alt="{{ post.title }}">
 				</div>
 			{% endif %}
 			<div class="post-box">
@@ -34,8 +34,8 @@ sitemap:
 				</div>
 
 				<div class="post-details">
-					{% assign author = site.authors | where: "author", post.author | first %}
-					<img src="{{ author.image_path }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
+					{% assign author = site.data.authors[post.author] %}
+					<img src="{{ author.image }}" alt="A stunning photo of {{ author.name }}" width="200" height="200">
 					<span class="name">{{ author.name }}</span>
 					{% for category in post.categories %}
 						<span class="category-separator">&bull;</span> <span class="category">{{ category }}</span>
@@ -51,10 +51,10 @@ sitemap:
 					{% endif %}
 				</div>
 
-				<div class="card-actions"><a class="button light smaller-text no-border no-padding no-hover" href="{{ post.url }}">Read more &rsaquo;</a></div>
+				<div class="card-actions"><a class="button light no-border no-padding no-hover" href="{{ post.url }}">Read more &rsaquo;</a></div>
 			</div>
 		</li>
 	{% endfor %}
 </ul>
 
-<p class="view-archived"><a class="button light smaller-text" href="/archived/">View archived</a></p>
+<p class="view-archived"><a class="button light" href="/archived/">View archived</a></p>

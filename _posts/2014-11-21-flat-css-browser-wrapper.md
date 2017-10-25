@@ -1,8 +1,9 @@
 ---
-title: How To Create a Browser Window With Just CSS and HTML
-header: Creating a CSS and HTML Browser Window
+title: How to create a browser window with just CSS and HTML
 category: Deconstructions
 author: george
+image:
+image_featured: false
 permalink: /deconstructions/2014/11/21/flat-css-browser-wrapper.html
 ---
 

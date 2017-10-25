@@ -1,8 +1,9 @@
 ---
-title: Who's Using Jekyll?
-header: Who's Using Jekyll?
+title: Who's using Jekyll?
 category: Jekyll
 author: mike
+image:
+image_featured: false
 permalink: /jekyll/2015/06/12/whos-using-jekyll.html
 ---
 

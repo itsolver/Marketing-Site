@@ -15,7 +15,7 @@
 			flex: 1 1 500px;
 		}
 
-		@media only screen and (min-width: $menu-break) {
+		@media only screen and (min-width: $desktop-min) {
 			flex-flow: row;
 
 			.contact-content {
@@ -33,7 +33,7 @@
 			box-sizing: border-box;
 		}
 
-		@media only screen and (min-width: $menu-break) {
+		@media only screen and (min-width: $desktop-min) {
 			flex-flow: row;
 			margin: 0 -10px;
 
@@ -58,7 +58,7 @@
 	input[type="email"],
 	input[type="password"],
 	textarea {
-		background: $grey-bg;
+		background: $cards-background-color;
 
 		&:focus {
 			border-color: #888;

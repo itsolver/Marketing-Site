@@ -1,12 +1,9 @@
 ---
-title: Inline Editing of Markdown Pages
-header: Inline Editing of Markdown Pages
+title: Inline editing of Markdown pages
 category: Features
-post_image: /images/blog/inline-editing/markdown-editable@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 1000
 author: george
+image: /images/blog/inline-editing/markdown-editable@2x.png
+image_featured: false
 ---
 
 This week we announce a long awaited feature, inline editing of Markdown files. This feature means that posts, collection items or pages written in Markdown are editable in the Visual Editor automatically. The ability to edit posts in context has been requested since the introduction of blogging.

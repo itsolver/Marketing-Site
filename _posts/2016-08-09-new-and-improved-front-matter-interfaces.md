@@ -1,12 +1,9 @@
 ---
 title: New and Improved Front Matter Interfaces
-header: New and Improved Front Matter Interfaces
 category: Features
-post_image: /images/blog/new-and-improved-front-matter-interfaces/front-matter-example@2x.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 1000
 author: ross
+image: /images/blog/new-and-improved-front-matter-interfaces/front-matter-example@2x.png
+image_featured: false
 ---
 
 CloudCannon is committed to bringing the best editing experience to static and Jekyll sites. We provide world-class interfaces for your clients to update their front matter, a core offering of Jekyll.

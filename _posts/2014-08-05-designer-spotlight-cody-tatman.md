@@ -1,10 +1,10 @@
 ---
 title: Designer Spotlight - Cody Tatman
-header: Designer Spotlight - Cody Tatman
 category: Interview
 author: sam
+image: /images/blog/ds-cody-tatman/cody-tatman.png
+image_featured: true
 permalink: /interview/2014/08/05/designer-spotlight-cody-tatman.html
-featured_image: /images/blog/ds-cody-tatman/cody-tatman.png
 ---
 #### " She just took over a company that is *all paper*. She actually said to me “I don't know what I’m going to do Cody!” *All Paper!* "
 

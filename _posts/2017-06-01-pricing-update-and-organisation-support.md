@@ -1,13 +1,9 @@
 ---
 title: 'Pricing Update & Organisation Support'
-header: 'Pricing Update & Organisation Support'
 category: Announcements
-image: /uploads/pricing.png
-post_image: /uploads/pricing.png
-post_image_type: image/png
-post_image_width: 1600
-post_image_height: 583
 author: george
+image: /uploads/pricing.png
+image_featured: true
 ---
 
 

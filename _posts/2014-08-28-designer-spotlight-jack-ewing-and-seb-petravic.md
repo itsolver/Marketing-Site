@@ -1,10 +1,10 @@
 ---
 title: Designer Spotlight - Jack Ewing and Seb Petravic
-header: Designer Spotlight - Jack Ewing and Seb Petravic
 category: Interview
 author: sam
+image: /images/blog/ds-jack-ewing-and-seb-petravic/Seb_Jack.jpg
+image_featured: true
 permalink: /interview/2014/08/28/designer-spotlight-jack-ewing-and-seb-petravic.html
-featured_image: /images/blog/ds-jack-ewing-and-seb-petravic/Seb_Jack.jpg
 ---
 > #### " First off we want everything we do to look good. But I guess the main purpose of the page is to visually explain what Glassjar does in a simple and effective way. " ####
 
