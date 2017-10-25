@@ -1,5 +1,5 @@
 ---
-title: New Brand
+title: New CloudCannon Brand
 category: Announcements
 image: /images/blog/new-brand/new-homepage.png
 image_featured: true
