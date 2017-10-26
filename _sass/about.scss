@@ -5,13 +5,13 @@
 	}
 
 	.feature-content {
-		background: #fff;
-		padding: 0;
+		@extend .vertical-flow;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-top: -10px;
 
-		ul {
-			li {
-				border: 1px solid $plain-border-color;
-			}
+		li {
+			border: 1px solid $plain-border-color;
 		}
 	}
 }
@@ -19,15 +19,25 @@
 .mugs {
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 -20px;
 	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
 
 	li {
-		flex: 1 0 200px;
+		flex: 0 1 150px;
+		margin: 20px;
 		text-align: center;
 
 		img {
-			border-radius: $border-radius;
+			border: 1px solid #e7e7e7;
+			border-radius: 50%;
+			box-shadow: $medium-box-shadow, $outline-box-shadow;
+			margin-bottom: 5px;
+		}
+
+		p {
+			margin: 0;
 		}
 	}
 }

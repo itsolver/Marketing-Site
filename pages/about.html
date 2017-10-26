@@ -31,29 +31,27 @@ static_manifesto:
 	<p>Our mission is to bring all the advantages of static technology to developers while giving editors intuitive interfaces and workflows to update content. We believe most informational websites should be static. The reason they’re not is non-technical editors need to update content.</p>
 
 	<h2>Why static?</h2>
-	<div class="feature-content">
-		<ul class="cards">
-			{% for item in page.static_manifesto %}
-				<li class="card">
-					<h3><i class="material-icons">{{ item.icon }}</i> {{ item.title }}</h3>
-					{{ item.content_markdown | markdownify }}
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
+	<ul class="cards feature-content">
+		{% for item in page.static_manifesto %}
+			<li class="card">
+				<h3><i class="material-icons">{{ item.icon }}</i> {{ item.title }}</h3>
+				{{ item.content_markdown | markdownify }}
+			</li>
+		{% endfor %}
+	</ul>
 
 	<h2>Our team</h2>
 	<p>Founded in Dunedin, New Zealand and now serving customers from all over the world. Our team is passionate about doing our part in making static site generators mainstream.</p>
 
-  <ul class="mugs">
-    {% for person_obj in site.data.authors %}
-      {% assign person = person_obj[1] %}
-      {% if person.position %}
-        <li>
-          <div class="image"><img src="{{ person.image }}" alt="{{ person.name }}"></div>
-          <h3>{{ person.name }}</h3>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+	<ul class="mugs">
+		{% for person_obj in site.data.authors %}
+			{% assign person = person_obj[1] %}
+			{% if person.position %}
+				<li>
+					<div class="image"><img src="{{ person.image }}" alt="{{ person.name }}"></div>
+					<p>{{ person.name }}</p>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
 </div>
