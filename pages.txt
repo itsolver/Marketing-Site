@@ -1,6 +1,0 @@
-usecases:
-
-* API Docs
-* Online Conference
-* Photography site
-* Bar site

@@ -12,7 +12,7 @@ permalink: pretty
 timezone: Pacific/Auckland
 collections:
   case_studies:
-    output: true
+    output: false
     permalink: /case-studies/:name/
 defaults:
   - scope:
